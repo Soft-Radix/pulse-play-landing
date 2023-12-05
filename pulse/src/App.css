@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body,
+html {
+  font-family: "Poppins", sans-serif;
+  font-family: "Caveat", cursive;
+  font-family: "Inter", sans-serif;
+  font-family: "Kantumruy Pro", sans-serif;
+  font-family: "Libre Baskerville", serif;
+  font-family: "Roboto", sans-serif;
+  font-family: "Roboto Slab", serif;
+  list-style: none;
+  text-decoration: none;
+  scroll-behavior: smooth;
+}
+:root {
+  --white: #ffffff;
+  --pink: #fe4e68;
+  --black: #0e1015;
+  --text: 16px;
+  --heading: 44px;
+}

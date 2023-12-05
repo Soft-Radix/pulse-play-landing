@@ -1,0 +1,44 @@
+import React from "react";
+import "../../style/HeaderStyle.css";
+import googleImg from "../../assets/google.svg";
+import appImg from "../../assets/apple.svg";
+import textImg from "../../assets/mainHeader.png";
+export default function HeroSection() {
+  return (
+    <>
+      {/* Main Content Section */}
+      <div className="main-wrapper">
+        {/* Main Text Section */}
+        <div className="main-text">
+          <h1 className="main-heading">
+            Here’s to
+            <span>Video Dating </span>
+            <br></br>with Confidence.
+          </h1>
+          <p className="main-para">
+            Lorem ipsum dolor sit amet consectetur. Magna velit at tincidunt
+            <br></br>
+            ipsum montes praesent sagittis. Eget proin sapien volutpat a hac
+            <br></br>
+            vulputate. Eleifend nec{" "}
+          </p>
+
+          {/* Text Button Section */}
+          <div className="text-btn">
+            <object type="image/svg+xml" data={googleImg} className="googleImg">
+              svg-image
+            </object>
+            <object type="image/svg+xml" data={appImg} className="appImg">
+              svg-image
+            </object>
+          </div>
+        </div>
+
+        {/* Text Image Section */}
+        <div className="text-image">
+          <img src={textImg} alt="" className="textImg"></img>
+        </div>
+      </div>
+    </>
+  );
+}

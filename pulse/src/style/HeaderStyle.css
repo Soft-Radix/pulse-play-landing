@@ -1,0 +1,146 @@
+/* Header Section */
+.main-header {
+  width: 100%;
+  flex-shrink: 0;
+  background-color: var(--black);
+}
+
+/* Navigation Container */
+.nav-container {
+  width: 100%;
+  background-color: var(--black);
+  object-fit: cover;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem 5rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.14);
+}
+
+/* Logo Section */
+.logo-wrapper {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.logoImg {
+  width: 3.26rem;
+  height: 3.26rem;
+  flex-shrink: 0;
+}
+
+.logoName {
+  width: 12.03rem;
+  height: 2.39rem;
+  flex-shrink: 0;
+}
+
+/* Navigation Items */
+.nav-items a {
+  color: var(--white);
+  text-decoration: none;
+  color: #fff;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.nav-items {
+  display: flex;
+  gap: 2.5rem;
+}
+
+/* Navigation Buttons */
+.nav-button {
+  display: flex;
+}
+
+.btn-logIn {
+  width: 147px;
+  height: 52px;
+  border-radius: 100px;
+  background: linear-gradient(272deg, #fd297b -5.84%, #ff5864 98.18%);
+  border: none;
+  color: #fff;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.btn-signUp {
+  text-align: right;
+  width: max-content;
+  padding-left: 35px;
+  height: 52px;
+  color: #fff;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  background: none;
+  border: none;
+}
+
+/* Main Content Section */
+.main-wrapper {
+  display: flex;
+  padding: 2rem 5rem;
+  gap: 40px;
+  background-color: var(--black);
+  justify-content: space-between;
+}
+
+.main-text {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+/* Main Heading */
+.main-heading {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 58px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  padding-top: 2rem;
+}
+
+.main-heading span {
+  color: var(--pink);
+}
+
+/* Main Paragraph */
+.main-para {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 30px; /* 166.667% */
+}
+
+/* Text Button Section */
+.text-btn {
+  object-fit: cover;
+  display: flex;
+  gap: 10px;
+}
+
+/* Text Image Section */
+.text-image {
+  display: flex;
+}
+
+.textImage {
+  width: 100%;
+}
