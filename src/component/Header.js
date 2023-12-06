@@ -2,32 +2,38 @@ import React from "react";
 import "../style/HeaderStyle.css";
 import logoImg from "../assets/logo.png";
 import logoName from "../assets/logoName.png";
+import { Navbar, Nav, Container } from "react-bootstrap";
+// import "bootstrap/dist/css/bootstrap.min.css";
 
 function Header() {
   return (
-    <div className="main-header">
-      {/* Navigation Container */}
-      <div className="nav-container">
+    <Navbar className="main-header d-flex" expand="lg">
+      <Container className="nav-container">
         {/* Logo Section */}
         <div className="logo-wrapper">
-          <img src={logoImg} alt="" className="logoImg"></img>
-          <img src={logoName} alt="" className="logoName"></img>
+          <img src={logoImg} alt="" className="logoImg" />
+          <img src={logoName} alt="" className="logoName" />
         </div>
+
+        {/* Navigation Toggle Button */}
+        <Navbar.Toggle aria-controls="basic-navbar-nav bg-light" />
 
         {/* Navigation Items */}
-        <div className="nav-items">
-          <a href=" ">Home</a>
-          <a href=" ">About Us</a>
-          <a href=" ">Contact us</a>
-        </div>
+        <Navbar.Collapse id="basic-navbar-nav">
+          <Nav className="ms-auto nav-items">
+            <Nav.Link href="#">Home</Nav.Link>
+            <Nav.Link href="#">About Us</Nav.Link>
+            <Nav.Link href="#">Contact us</Nav.Link>
+          </Nav>
 
-        {/* Navigation Buttons */}
-        <div className="nav-button">
-          <button className="btn-logIn">Log In</button>
-          <button className="btn-signUp">Sign up</button>
-        </div>
-      </div>
-    </div>
+          {/* Navigation Buttons */}
+          <div className="nav-button">
+            <button className="btn-logIn">Log In</button>
+            <button className="btn-signUp">Sign up</button>
+          </div>
+        </Navbar.Collapse>
+      </Container>
+    </Navbar>
   );
 }
 

@@ -1,0 +1,61 @@
+.work-heading {
+  color: var(--white);
+  text-align: center;
+  font-family: Poppins;
+  font-size: 44px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 160%; /* 70.4px */
+}
+.work-para {
+  color: var(--white);
+  text-align: center;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%; /* 25.6px */
+  padding: 1rem 15rem;
+}
+.work-card {
+  display: flex;
+}
+.card-text {
+  background-color: var(--white);
+  max-width: 294.872px;
+  max-height: 202.181px;
+  border-radius: 0px 7px 7px 0px;
+  border-bottom: 1px solid var(--pink, #fd297b);
+  background: var(--white);
+}
+.text-wrapper {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-end;
+  padding-top: 1rem;
+}
+.circle {
+  width: 41.678px;
+  height: 41.678px;
+}
+.heart {
+  width: 47.93px;
+  height: 47.93px;
+}
+.text-sign {
+  color: var(--black);
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 30px; /* 150% */
+}
+.text-para {
+  color: var(--grey, #677282);
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding: 1.3rem;
+}
