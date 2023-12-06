@@ -2,10 +2,9 @@ import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import "../style/workStyle.css";
 import img1 from "../assets/1.svg";
-import img2 from "../assets/2.svg";
-import img3 from "../assets/3.svg";
+// import img2 from "../assets/2.svg";
+// import img3 from "../assets/3.svg";
 import circle from "../assets/cardCircle.svg";
-import Heart from "../assets/cardHeart.svg";
 import bgImg from "../assets/workBackground.png";
 import Card from "../component/Card";
 
@@ -16,6 +15,7 @@ function WorkSection() {
     backgroundPosition: "center", // Adjust as needed
     /* Other background properties if needed */
   };
+
   return (
     <Container
       fluid
@@ -33,8 +33,8 @@ function WorkSection() {
           </p>
         </Col>
       </Row>
-      <Container className="pt-6 mb-3 pb-3">
-        <Row className="pt-4">
+      <div>
+        <Row className="custom-card">
           <Card
             imgSrc={img1}
             title={"Sign up now"}
@@ -42,17 +42,16 @@ function WorkSection() {
               "Lorem ipsum dolor sit amet consectetur. Elit egestas dui arcu nisi vel quam sit. Urna aliquet id convallis in semper egestas leo. Amet ultrices ut he"
             }
             circle={circle}
-            heart={Heart}
+            left="0px"
           />
-          <Card
+          {/* <Card
             imgSrc={img2}
             title={"Add Information"}
             description={
               "Lorem ipsum dolor sit amet consectetur. Elit egestas dui arcu nisi vel quam sit. Urna aliquet id convallis in semper egestas leo. Amet ultrices ut he"
             }
             circle={circle}
-            heart={Heart}
-            style={{ marginLeft: "-47px" }}
+            left="50px"
           />
           <Card
             imgSrc={img3}
@@ -61,10 +60,10 @@ function WorkSection() {
               "Lorem ipsum dolor sit amet consectetur. Elit egestas dui arcu nisi vel quam sit. Urna aliquet id convallis in semper egestas leo. Amet ultrices ut he"
             }
             circle={circle}
-            heart={Heart}
-          />
+            left="50px"
+          /> */}
         </Row>
-      </Container>
+      </div>
     </Container>
   );
 }

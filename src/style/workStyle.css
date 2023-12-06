@@ -22,8 +22,8 @@
 }
 .card-text {
   background-color: var(--white);
-  max-width: 294.872px;
-  max-height: 202.181px;
+  min-width: 294.872px;
+  height: 202.181px;
   border-radius: 0px 7px 7px 0px;
   border-bottom: 1px solid var(--pink, #fd297b);
   background: var(--white);
@@ -58,4 +58,7 @@
   font-weight: 400;
   line-height: normal;
   padding: 1.3rem;
+}
+.custom-card {
+  margin-left: 0;
 }
