@@ -28,7 +28,7 @@ export default function HeroSection() {
               <object
                 type="image/svg+xml"
                 data={googleImg}
-                className="googleImg"
+                className="googleImg img-fluid"
               >
                 svg-image
               </object>
@@ -39,8 +39,8 @@ export default function HeroSection() {
           </div>
         </Col>
         <Col md={5}>
-          <div className="text-image">
-            <img src={textImg} alt="" className="textImg"></img>
+          <div className="text-image img-fluid">
+            <img src={textImg} alt="" className="img-fluid textImg"></img>
           </div>
         </Col>
       </Row>

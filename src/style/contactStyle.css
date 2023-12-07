@@ -1,0 +1,47 @@
+.contact-heading {
+  color: var(--black);
+  font-family: Poppins;
+  font-size: 44px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 160%; /* 70.4px */
+}
+.contact-heading span {
+  background: var(
+    --pink,
+    linear-gradient(272deg, #fd297b -5.84%, #ff5864 98.18%)
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: Poppins;
+  font-size: 44px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 160%;
+}
+.contact-para {
+  color: var(--grey, #677282);
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 167%; /* 26.72px */
+}
+.contact-btn {
+  border-radius: 100px;
+  background: var(
+    --gr,
+    linear-gradient(272deg, #fd297b -5.84%, #ff5864 98.18%)
+  );
+}
+.contact-wrapper {
+  padding-left: 5rem;
+  padding-top: 8rem;
+}
+@media (max-width: 768px) {
+  .contact-wrapper {
+    padding-top: 1rem;
+    padding-left: 1rem;
+  }
+}

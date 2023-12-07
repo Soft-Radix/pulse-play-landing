@@ -17,12 +17,17 @@ function Card(props) {
   };
 
   return (
-    <Col md={4} style={Position}>
-      <div className="work-card">
-        <img src={imgSrc} alt="" style={{ position: "relative", left }}></img>
+    <Col md={3} style={Position}>
+      <div className="work-card" style={{ position: "relative" }}>
+        <img
+          src={imgSrc}
+          alt=""
+          style={{ position: "absolute", left }}
+          className="imgSrc img-fluid"
+        ></img>
         <div className="card-text" style={Heart}>
           <div className="text-wrapper">
-            <img src={circle} alt="" className="circle"></img>
+            <img src={circle} alt="" className="circle img-fluid"></img>
             <h2 className="text-sign">{title}</h2>
             {/* <img src={heart} alt="" className="heart"></img> */}
           </div>

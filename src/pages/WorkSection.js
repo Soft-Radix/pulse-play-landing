@@ -2,8 +2,8 @@ import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import "../style/workStyle.css";
 import img1 from "../assets/1.svg";
-// import img2 from "../assets/2.svg";
-// import img3 from "../assets/3.svg";
+import img2 from "../assets/2.svg";
+import img3 from "../assets/3.svg";
 import circle from "../assets/cardCircle.svg";
 import bgImg from "../assets/workBackground.png";
 import Card from "../component/Card";
@@ -19,7 +19,7 @@ function WorkSection() {
   return (
     <Container
       fluid
-      className="work-container mt-5 mb-3 pt-4 pb-4"
+      className="work-container mt-3 mb-3 pt-4 pb-5"
       style={styles}
     >
       <Row>
@@ -33,37 +33,36 @@ function WorkSection() {
           </p>
         </Col>
       </Row>
-      <div>
-        <Row className="custom-card">
-          <Card
-            imgSrc={img1}
-            title={"Sign up now"}
-            description={
-              "Lorem ipsum dolor sit amet consectetur. Elit egestas dui arcu nisi vel quam sit. Urna aliquet id convallis in semper egestas leo. Amet ultrices ut he"
-            }
-            circle={circle}
-            left="0px"
-          />
-          {/* <Card
-            imgSrc={img2}
-            title={"Add Information"}
-            description={
-              "Lorem ipsum dolor sit amet consectetur. Elit egestas dui arcu nisi vel quam sit. Urna aliquet id convallis in semper egestas leo. Amet ultrices ut he"
-            }
-            circle={circle}
-            left="50px"
-          />
-          <Card
-            imgSrc={img3}
-            title={"Find your match"}
-            description={
-              "Lorem ipsum dolor sit amet consectetur. Elit egestas dui arcu nisi vel quam sit. Urna aliquet id convallis in semper egestas leo. Amet ultrices ut he"
-            }
-            circle={circle}
-            left="50px"
-          /> */}
-        </Row>
-      </div>
+
+      <Row className="custom-card mt-3">
+        <Card
+          imgSrc={img1}
+          title={"Sign up now"}
+          description={
+            "Lorem ipsum dolor sit amet consectetur. Elit egestas dui arcu nisi vel quam sit. Urna aliquet id convallis in semper egestas leo. Amet ultrices ut he"
+          }
+          circle={circle}
+          left="-75px"
+        />
+        <Card
+          imgSrc={img2}
+          title={"Add Information"}
+          description={
+            "Lorem ipsum dolor sit amet consectetur. Elit egestas dui arcu nisi vel quam sit. Urna aliquet id convallis in semper egestas leo. Amet ultrices ut he"
+          }
+          circle={circle}
+          left="-100px"
+        />
+        <Card
+          imgSrc={img3}
+          title={"Find your match"}
+          description={
+            "Lorem ipsum dolor sit amet consectetur. Elit egestas dui arcu nisi vel quam sit. Urna aliquet id convallis in semper egestas leo. Amet ultrices ut he"
+          }
+          circle={circle}
+          left="-100px"
+        />
+      </Row>
     </Container>
   );
 }

@@ -9,8 +9,8 @@ function About() {
     <>
       <Container className="mt-5 pb-4 about-wrapper">
         <Row>
-          <Col md={6} className="pt-4">
-            <img src={aboutImg} alt="" className="about-img"></img>
+          <Col md={6} className="pt-4 order-md-1">
+            <img src={aboutImg} alt="" className="img-fluid about-img"></img>
           </Col>
           <Col
             className="d-flex align-items-start justify-content-center flex-column mb-4 about-text"
