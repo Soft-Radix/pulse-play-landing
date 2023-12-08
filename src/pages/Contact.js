@@ -3,6 +3,7 @@ import { Row, Container, Col } from "react-bootstrap";
 import contImg from "../assets/contactImg.svg";
 import btnImg from "../assets/contactBtn.svg";
 import "../style/contactStyle.css";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 
 function Contact() {
   return (
@@ -26,7 +27,11 @@ function Contact() {
           <img src={btnImg} alt="" className="contact-btn"></img>
         </Col>
         <Col md={6}>
-          <img src={contImg} alt="" className="img-fluid contact-img"></img>
+          <LazyLoadImage
+            src={contImg}
+            alt=""
+            className="img-fluid contact-img"
+          />
         </Col>
       </Row>
     </Container>

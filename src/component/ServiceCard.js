@@ -1,5 +1,6 @@
 import React from "react";
 import { Col } from "react-bootstrap";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 function ServiceCard(props) {
   const { title, imgSrc, description } = props;
   return (
@@ -11,7 +12,7 @@ function ServiceCard(props) {
     >
       <div className="detail-box"></div>
       <div className="detail-parent">
-        <img src={imgSrc} alt=" " className="img-fluid icon-img"></img>
+        <LazyLoadImage src={imgSrc} alt=" " className="img-fluid icon-img" />
         <h4 className="detail-heading">{title}</h4>
         <p className="detail-para">{description}</p>
       </div>

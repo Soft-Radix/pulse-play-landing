@@ -5,6 +5,8 @@ import logoName from "../assets/logoName.png";
 import { Navbar, Nav, Container } from "react-bootstrap";
 // import "bootstrap/dist/css/bootstrap.min.css";
 
+import CustomToggler from "./CustomToggler";
+
 function Header() {
   return (
     <Navbar className="main-header d-flex" expand="lg">
@@ -16,7 +18,7 @@ function Header() {
         </div>
 
         {/* Navigation Toggle Button */}
-        <Navbar.Toggle aria-controls="basic-navbar-nav bg-light" />
+        <Navbar.Toggle aria-controls="basic-navbar-nav" as={CustomToggler} />
 
         {/* Navigation Items */}
         <Navbar.Collapse id="basic-navbar-nav">

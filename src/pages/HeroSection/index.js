@@ -4,6 +4,8 @@ import googleImg from "../../assets/google.svg";
 import appImg from "../../assets/apple.svg";
 import textImg from "../../assets/mainHeader.png";
 import { Container, Row, Col } from "react-bootstrap";
+import { LazyLoadImage } from "react-lazy-load-image-component";
+import "react-lazy-load-image-component/src/effects/blur.css";
 export default function HeroSection() {
   return (
     <Container fluid className="main-wrapper">
@@ -25,22 +27,30 @@ export default function HeroSection() {
 
             {/* Text Button Section */}
             <div className="text-btn">
-              <object
-                type="image/svg+xml"
-                data={googleImg}
-                className="googleImg img-fluid"
-              >
-                svg-image
-              </object>
-              <object type="image/svg+xml" data={appImg} className="appImg">
-                svg-image
-              </object>
+              <LazyLoadImage
+                src={googleImg}
+                alt=""
+                className="img-fluid textImg"
+                effect="blur"
+              />
+
+              <LazyLoadImage
+                src={appImg}
+                alt=""
+                className="img-fluid textImg"
+                effect="blur"
+              />
             </div>
           </div>
         </Col>
         <Col md={5}>
           <div className="text-image img-fluid">
-            <img src={textImg} alt="" className="img-fluid textImg"></img>
+            <LazyLoadImage
+              src={textImg}
+              alt=""
+              className="img-fluid textImg"
+              effect="blur"
+            />
           </div>
         </Col>
       </Row>

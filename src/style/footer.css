@@ -1,0 +1,54 @@
+.footer-container {
+  padding: 2rem 5rem;
+}
+.footer-para {
+  color: var(--white);
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.16px;
+  padding-top: 1rem;
+  padding-top: 1rem;
+  padding-right: 2rem;
+  padding-bottom: 1rem;
+}
+.social-icon {
+  display: flex;
+  gap: 10px;
+  cursor: pointer;
+}
+.footer-heading {
+  color: #fff;
+  font-feature-settings: "liga" off;
+  font-family: Poppins;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.24px;
+}
+.footer-nav-list {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.16px;
+}
+.img-wrap {
+  padding-right: 20px;
+}
+.copy-write {
+  color: var(--neutral, #a8a8a8);
+  text-align: center;
+  font-feature-settings: "liga" off;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 10px;
+}

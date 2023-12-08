@@ -3,6 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import offerImg from "../assets/offerImg.svg";
 import VectorImg from "../assets/Vector.svg";
 import "../style/offerStyle.css";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 
 function Offer() {
   return (
@@ -22,7 +23,12 @@ function Offer() {
           </p>
           <div className="list-container">
             <div className="offer-list">
-              <img src={VectorImg} alt="" className="img-fluid"></img>
+              <LazyLoadImage
+                src={VectorImg}
+                alt=""
+                className="img-fluid"
+                effect="blur"
+              />
               <p className="list-para">Video & voice call features</p>
             </div>
             <div className="offer-list">
@@ -54,7 +60,7 @@ function Offer() {
           </div>
         </Col>
         <Col md={6}>
-          <img src={offerImg} alt="" className="img-fluid"></img>
+          <LazyLoadImage src={offerImg} alt="" className="img-fluid" />
         </Col>
       </Row>
     </Container>
