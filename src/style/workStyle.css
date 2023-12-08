@@ -27,6 +27,7 @@
   border-radius: 0px 7px 7px 0px;
   border-bottom: 1px solid var(--pink, #fd297b);
   background: var(--white);
+  z-index: 2;
 }
 .text-wrapper {
   display: flex;
@@ -58,7 +59,10 @@
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  padding: 1rem 1.5rem;
+  padding: 1rem 0.5rem;
+}
+.imgSrc {
+  z-index: 1;
 }
 .custom-card {
   margin-left: 0;

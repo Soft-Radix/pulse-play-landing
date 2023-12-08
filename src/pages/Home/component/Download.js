@@ -1,17 +1,19 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
-import downImg from "../assets/download.svg";
-import dotImg from "../assets/dot.svg";
-import googleImg from "../assets/google.svg";
-import appImg from "../assets/app.png";
-import vectorImg from "../assets/workBackground.png";
-import "../style/downloadStyle.css";
-import bgImg from "../assets/backgroundDown.svg";
+import downImg from "../../../assets/download.svg";
+import dotImg from "../../../assets/dot.svg";
+import googleImg from "../../../assets/google.svg";
+import appImg from "../../../assets/app.png";
+
+import "../../../style/downloadStyle.css";
+import bgImg from "../../../assets/backgroundDown.svg";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 function Download() {
   const BackGround = {
     borderRadius: "20px",
-    backgroundImage: `url(${vectorImg})`,
+
+    background: "linear-gradient(272deg, #fd297b -5.84%, #ff5864 98.18%)",
+
     backgroundSize: "cover", // Adjust as needed
     backgroundPosition: "center", // Adjust as needed
     /* Other background properties if needed */

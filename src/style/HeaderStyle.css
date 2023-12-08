@@ -48,8 +48,17 @@
   font-style: normal;
   font-weight: 600;
   line-height: normal;
+  transition: transform 0.3s ease;
 }
 
+.nav-items a:hover {
+  color: #fd3c71;
+  text-decoration-line: underline;
+}
+.nav-items a:hover:after {
+  transform: scaleX(1); /* Scale the border to full width on hover */
+  height: 2px; /* Set the final height of the border on hover */
+}
 .nav-items {
   display: flex;
   gap: 2.5rem;

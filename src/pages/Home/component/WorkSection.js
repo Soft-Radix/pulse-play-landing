@@ -1,12 +1,12 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
-import "../style/workStyle.css";
-import img1 from "../assets/1.svg";
-import img2 from "../assets/2.svg";
-import img3 from "../assets/3.svg";
-import circle from "../assets/cardCircle.svg";
-import bgImg from "../assets/workBackground.png";
-import Card from "../component/Card";
+import "../../../style/workStyle.css";
+import img1 from "../../../assets/1.svg";
+import img2 from "../../../assets/2.svg";
+import img3 from "../../../assets/3.svg";
+import circle from "../../../assets/cardCircle.svg";
+import bgImg from "../../../assets/workBackground.png";
+import Card from "../../../component/Card";
 
 function WorkSection() {
   const styles = {

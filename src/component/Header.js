@@ -3,6 +3,7 @@ import "../style/HeaderStyle.css";
 import logoImg from "../assets/logo.png";
 import logoName from "../assets/logoName.png";
 import { Navbar, Nav, Container } from "react-bootstrap";
+
 // import "bootstrap/dist/css/bootstrap.min.css";
 
 function Header() {
@@ -24,8 +25,8 @@ function Header() {
         {/* Navigation Items */}
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto nav-items">
-            <Nav.Link href="#">Home</Nav.Link>
-            <Nav.Link href="#">About Us</Nav.Link>
+            <Nav.Link href="/">Home</Nav.Link>
+            <Nav.Link href="/about">About Us</Nav.Link>
             <Nav.Link href="#">Contact us</Nav.Link>
           </Nav>
 

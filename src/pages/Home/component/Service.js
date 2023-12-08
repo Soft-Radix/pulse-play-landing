@@ -1,11 +1,11 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import "../style/serviceStyle.css";
-import img1 from "../assets/service1.svg";
-import img2 from "../assets/service2.svg";
-import img3 from "../assets/service3.svg";
-import img4 from "../assets/service4.svg";
-import ServiceCard from "../component/ServiceCard";
+import "../../../style/serviceStyle.css";
+import img1 from "../../../assets/service1.svg";
+import img2 from "../../../assets/service2.svg";
+import img3 from "../../../assets/service3.svg";
+import img4 from "../../../assets/service4.svg";
+import ServiceCard from "../../../component/ServiceCard";
 
 function Service() {
   return (

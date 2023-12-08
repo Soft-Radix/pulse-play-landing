@@ -1,8 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import aboutImg from "../../assets/aboutImg.svg";
-// import circleImg from "../../assets/Ellipse blue.svg";
-import "../../style/aboutStyle.css";
+import aboutImg from "../../../assets/aboutImg.svg";
+import "../../../style/aboutStyle.css";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 
 function About() {

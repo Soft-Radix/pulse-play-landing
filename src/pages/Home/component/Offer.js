@@ -1,8 +1,8 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import offerImg from "../assets/offerImg.svg";
-import VectorImg from "../assets/Vector.svg";
-import "../style/offerStyle.css";
+import offerImg from "../../../assets/offerImg.svg";
+import VectorImg from "../../../assets/Vector.svg";
+import "../../../style/offerStyle.css";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 
 function Offer() {

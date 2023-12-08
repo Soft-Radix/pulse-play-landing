@@ -1,8 +1,8 @@
 import React from "react";
 import { Row, Container, Col } from "react-bootstrap";
-import contImg from "../assets/contactImg.svg";
-import btnImg from "../assets/contactBtn.svg";
-import "../style/contactStyle.css";
+import contImg from "../../../assets/contactImg.svg";
+import btnImg from "../../../assets/contactBtn.svg";
+import "../../../style/contactStyle.css";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 
 function Contact() {

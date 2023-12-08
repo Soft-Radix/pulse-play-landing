@@ -1,12 +1,13 @@
 import React from "react";
-import "../../style/HeaderStyle.css";
-import googleImg from "../../assets/google.svg";
-import appImg from "../../assets/apple.svg";
-import textImg from "../../assets/mainHeader.png";
+import "../../../style/HeaderStyle.css";
+import googleImg from "../../../assets/google.svg";
+import appImg from "../../../assets/apple.svg";
+import textImg from "../../../assets/mainHeader.png";
 import { Container, Row, Col } from "react-bootstrap";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import "react-lazy-load-image-component/src/effects/blur.css";
-export default function HeroSection() {
+
+function Dating() {
   return (
     <Container fluid className="main-wrapper">
       <Row>
@@ -57,3 +58,5 @@ export default function HeroSection() {
     </Container>
   );
 }
+
+export default Dating;
