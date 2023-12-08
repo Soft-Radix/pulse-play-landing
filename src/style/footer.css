@@ -52,3 +52,8 @@
   line-height: normal;
   margin-top: 10px;
 }
+@media (max-width: 600px) {
+  .footer-container {
+    padding: 2rem 0.5rem;
+  }
+}

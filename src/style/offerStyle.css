@@ -52,3 +52,8 @@
   font-weight: 500;
   line-height: 150%; /* 28.5px */
 }
+@media (max-width: 600px) {
+  .offer-wrapper {
+    padding: 2rem 0.2rem;
+  }
+}

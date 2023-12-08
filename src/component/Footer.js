@@ -35,7 +35,7 @@ function Footer() {
               <img src={instagramImg} alt=" " className="img-fluid"></img>
             </div>
           </Col>
-          <Col className="d-flex pl-3 flex-wrap" md={8}>
+          <Col className="d-flex pl-3 flex-wrap" md={8} sx>
             <FooterCard
               heading={"Quick Links"}
               list1={"Home"}

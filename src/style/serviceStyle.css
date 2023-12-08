@@ -80,3 +80,8 @@
   padding: 0 1rem;
   line-height: 23px; /* 164.286% */
 }
+@media (max-width: 600px) {
+  .service-row {
+    padding: 0 0.5rem;
+  }
+}

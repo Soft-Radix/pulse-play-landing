@@ -5,7 +5,12 @@ function footerCard(props) {
   const { heading, list1, list2, list3, Img, Img1 } = props;
   return (
     <>
-      <Col className="d-flex flex-column gap-2 " style={{ cursor: "pointer" }}>
+      <Col
+        className="d-flex flex-column gap-2 "
+        style={{ cursor: "pointer" }}
+        xs={12}
+        md={4}
+      >
         <h3 className="footer-heading">{heading}</h3>
         <div className="contact-icon">
           {Img && <img src={Img} className="img-fluid img-wrap" alt=""></img>}
