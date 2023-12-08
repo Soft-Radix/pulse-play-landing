@@ -130,6 +130,9 @@
   font-weight: 300;
   line-height: 30px; /* 166.667% */
 }
+.custom-toggle {
+  background-color: var(--white) !important;
+}
 
 /* Text Button Section */
 .text-btn {

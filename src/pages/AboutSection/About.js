@@ -9,7 +9,7 @@ function About() {
   return (
     <>
       <Container className="mt-5 pb-4 about-wrapper">
-        <Row>
+        <Row className="d-flex flex-row-reverse">
           <Col md={6} className="pt-4 order-md-1">
             <LazyLoadImage
               src={aboutImg}
