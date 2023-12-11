@@ -41,6 +41,7 @@
   /* width: 100%; */
   /* max-width: 594px; */
   flex-shrink: 0;
+  background-color: var(--white);
   border: 1px solid var(--pink);
   padding: 1rem;
   border-radius: 10px;
@@ -62,7 +63,7 @@
 .description-para {
   color: var(--grey, #677282);
   font-family: Poppins;
-  font-size: 16px;
+  font-size: 14px;
   font-style: normal;
   font-weight: 400;
   line-height: 160%; /* 25.6px */

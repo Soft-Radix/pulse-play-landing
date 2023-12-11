@@ -7,13 +7,9 @@ import { LazyLoadImage } from "react-lazy-load-image-component";
 
 function Empower() {
   return (
-    <Container
-      fluid
-      style={{ backgroundColor: " #ffe6ef" }}
-      className="pt-3 pb-3"
-    >
+    <Container fluid style={{ backgroundColor: " #ffe6ef" }} className="pt-3">
       {/* First Row */}
-      <Row>
+      <Row className="pt-3">
         <Col>
           <h2 className="empower-heading">
             We <span>Empower</span>

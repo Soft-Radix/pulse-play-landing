@@ -5,6 +5,8 @@ import Footer from "../component/Footer"; // Importing Footer component
 import AboutHero from "./About/AboutComponent/AboutHero";
 import Features from "./About/AboutComponent/Features";
 import Empower from "./About/AboutComponent/Empower";
+import Success from "./About/AboutComponent/Success";
+// import Download from "./Home/component/Download";
 
 // Functional component for the About page
 function About() {
@@ -15,6 +17,8 @@ function About() {
       {/* Rendering the AboutHero component */}
       <Features /> {/* Rendering the Features component */}
       <Empower /> {/* Rendering the Empower component */}
+      <Success/>
+      {/* <Download /> */}
       <Footer /> {/* Rendering the Footer component */}
     </>
   );
