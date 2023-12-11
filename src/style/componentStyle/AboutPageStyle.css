@@ -1,0 +1,51 @@
+/* Styling for the main heading of the About section */
+.about-main-heading {
+  color: #fff; /* Text color */
+  font-family: Poppins; /* Font family */
+  font-size: 58px; /* Font size */
+  font-style: normal; /* Font style */
+  font-weight: 600; /* Font weight */
+  line-height: normal; /* Line height */
+  padding-left: 2rem; /* Left padding */
+}
+
+/* Styling for the span within the main heading */
+.about-main-heading span {
+  background: var(
+    --gr,
+    linear-gradient(272deg, #fd297b -5.84%, #ff5864 98.18%)
+  ); /* Gradient background */
+  background-clip: text; /* Applying background to text only */
+  -webkit-background-clip: text; /* For compatibility with WebKit browsers */
+  -webkit-text-fill-color: transparent; /* Making text transparent */
+  font-family: Poppins; /* Font family */
+  font-size: 58px; /* Font size */
+  font-style: normal; /* Font style */
+  font-weight: 600; /* Font weight */
+  line-height: normal; /* Line height */
+}
+
+/* Styling for the main paragraph in the About section */
+.about-main-para {
+  color: #fff; /* Text color */
+  font-family: Poppins; /* Font family */
+  font-size: 18px; /* Font size */
+  font-style: normal; /* Font style */
+  font-weight: 300; /* Font weight */
+  line-height: 30px; /* Line height */
+  padding-left: 2rem; /* Left padding */
+}
+
+/* Additional styling for the main text container in the About section */
+.about-mainText {
+  padding-left: 4rem; /* Left padding */
+  padding-top: 7rem; /* Top padding */
+}
+
+/* Media query for screens with a maximum width of 768px */
+@media (max-width: 768px) {
+  .about-mainText {
+    padding-left: 2rem; /* Adjusted left padding for smaller screens */
+    padding-top: 1rem; /* Adjusted top padding for smaller screens */
+  }
+}
