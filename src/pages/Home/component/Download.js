@@ -6,24 +6,20 @@ import googleImg from "../../../assets/google.svg";
 import appImg from "../../../assets/app.png";
 
 import "../../../style/downloadStyle.css";
-import bgImg from "../../../assets/backgroundDown.svg";
+import bgImg from "../../../assets/downloadBg.svg";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 function Download() {
   const BackGround = {
     borderRadius: "20px",
 
-    background: "linear-gradient(272deg, #fd297b -5.84%, #ff5864 98.18%)",
-
+    backgroundImage: `url(${bgImg})`,
     backgroundSize: "cover", // Adjust as needed
-    backgroundPosition: "center", // Adjust as needed
+    backgroundRepeat: "no-repeat", // Adjust as needed
     /* Other background properties if needed */
   };
   const padding = {
     paddingLeft: "2.5rem",
     paddingTop: "1rem",
-    bacbackgroundImage: `url(${bgImg})`,
-    backgroundSize: "cover", // Adjust as needed
-    backgroundPosition: "center",
   };
 
   return (

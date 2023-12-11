@@ -1,0 +1,169 @@
+/* Empower Heading Styles */
+.empower-heading {
+  color: var(--black);
+  text-align: center;
+  font-family: Inter;
+  font-size: 44px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.empower-heading span {
+  background: var(
+    --gr,
+    linear-gradient(272deg, #fd297b -5.84%, #ff5864 98.18%)
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: Inter;
+  font-size: 44px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+/* Empower Paragraph Styles */
+.empower-para {
+  color: var(--grey, #677282);
+  text-align: center;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  padding: 0.5rem 20rem; /* Padding adjusted, consider using responsive units */
+  line-height: 160%; /* 25.6px */
+}
+
+/* Description Container Styles */
+.description-container {
+  /* width: 100%; */
+  /* max-width: 594px; */
+  flex-shrink: 0;
+  border: 1px solid var(--pink);
+  padding: 1rem;
+  border-radius: 10px;
+  margin-bottom: 27px;
+  box-sizing: border-box; /* Include padding and border in the total width/height */
+}
+
+/* Description Heading Styles */
+.description-heading {
+  color: var(--black);
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+/* Description Paragraph Styles */
+.description-para {
+  color: var(--grey, #677282);
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%; /* 25.6px */
+}
+
+/* Progress Wrapper Styles */
+.progress-wrapper {
+  width: 100%;
+  padding: 4rem 2rem 0 2rem;
+}
+
+/* Vertical Progress Bar Styles */
+.progressbar.vertical {
+  counter-reset: step;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Progress Bar List Item Styles */
+.progressbar li {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  text-align: center;
+  cursor: pointer;
+}
+
+/* Numbered Circles Styles */
+.progressbar li:before {
+  content: counter(step, decimal-leading-zero);
+  counter-increment: step;
+  width: 56px;
+  height: 56px;
+  flex-shrink: 0;
+  line-height: 30px;
+  border: 3px solid #fff;
+  border-radius: 100%;
+  display: block;
+  text-align: center;
+  font-size: 18px;
+  background-color: #fd3575;
+  color: var(--white);
+  padding: 0.5rem;
+}
+
+/* Vertical Line Styles */
+.vertical-line {
+  border-left: 3px solid var(--pink);
+  height: 100px;
+  margin: 0 10px;
+}
+
+/* Connecting Lines Between Steps Styles */
+.progressbar li:after {
+  content: "";
+  position: absolute;
+  width: 1px;
+  height: 100%;
+  background-color: #ddd;
+  top: 50%;
+  left: 50px;
+  transform: translateX(-50%);
+  z-index: -1;
+}
+
+.progressbar li:first-child:after {
+  content: none;
+}
+
+/* Active Step Styles */
+.progressbar li.active {
+  color: var(--white);
+}
+
+.progressbar li.active:before {
+  border-color: var(--white);
+  padding: 0.5rem;
+}
+
+.progressbar li.active + li:after {
+  background-color: #fd3575;
+}
+
+/* Custom Class for Flex Display */
+.custom {
+  display: flex;
+  gap: 20px;
+}
+
+/* Media Query for Smaller Screens */
+@media (max-width: 768px) {
+  .empower-para {
+    padding: 0;
+  }
+  .description-container {
+    max-width: 100%;
+  }
+  .progress-row {
+    flex-direction: column;
+  }
+}

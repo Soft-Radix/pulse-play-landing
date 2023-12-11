@@ -41,11 +41,29 @@
   padding-left: 4rem; /* Left padding */
   padding-top: 7rem; /* Top padding */
 }
+.circle {
+  position: absolute;
+  left: 223px;
+  width: 16px;
+  height: 16.58px;
+  flex-shrink: 0;
+  top: 67px;
+}
+.cross {
+  width: 28px;
+  height: 27.39px;
+  flex-shrink: 0;
+  position: absolute;
+  bottom: 26px;
+}
 
 /* Media query for screens with a maximum width of 768px */
 @media (max-width: 768px) {
   .about-mainText {
     padding-left: 2rem; /* Adjusted left padding for smaller screens */
-    padding-top: 1rem; /* Adjusted top padding for smaller screens */
+    padding-top: 2rem; /* Adjusted top padding for smaller screens */
+  }
+  .circle {
+    top: 10px;
   }
 }
