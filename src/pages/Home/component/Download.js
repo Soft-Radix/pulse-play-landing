@@ -24,7 +24,7 @@ function Download() {
 
   return (
     <Container style={BackGround} className="pt-3">
-      <Row className="pt-3  ">
+      <Row className="pt-3 ">
         <Col md={6} style={padding}>
           <h1 className="down-heading">Download Now</h1>
           <p className="down-para">
@@ -36,7 +36,7 @@ function Download() {
             <img src={dotImg} alt="" className="img-fluid"></img>
             <h4 className="dot-heading">Available On</h4>
           </div>
-          <div className="download-Img">
+          <Col className="download-Img">
             <LazyLoadImage
               src={appImg}
               alt=""
@@ -47,7 +47,7 @@ function Download() {
               alt=""
               className="img-fluid google-img"
             />
-          </div>
+          </Col>
         </Col>
         <Col md={6}>
           <LazyLoadImage

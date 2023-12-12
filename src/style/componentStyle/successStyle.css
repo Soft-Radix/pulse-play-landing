@@ -1,0 +1,108 @@
+.slider {
+  border-radius: 20px;
+  background: var(
+    --gr,
+    linear-gradient(272deg, #fd297b -5.84%, #ff5864 98.18%)
+  );
+  display: flex;
+  flex-direction: column;
+}
+.success-heading {
+  color: var(--black);
+  text-align: center;
+  font-family: Inter;
+  font-size: 44px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.success-heading span {
+  background: var(
+    --gr,
+    linear-gradient(272deg, #fd297b -5.84%, #ff5864 98.18%)
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: Inter;
+  font-size: 44px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.success-para {
+  color: var(--grey, #677282);
+  text-align: center;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%; /* 25.6px */
+  padding: 1rem 13rem;
+}
+.success-container {
+  padding-top: 3rem;
+}
+.slider-heading {
+  color: var(--white);
+  font-family: Poppins;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 110%; /* 26.4px */
+}
+.slider-para {
+  color: var(--white);
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 24px */
+}
+.slider-img {
+  /* width: 234.623px;
+  height: 234.623px; */
+  transform: rotate(3.386deg);
+  flex-shrink: 0;
+}
+.slider-caption {
+  left: 40%;
+  text-align: start;
+  bottom: 5.25rem;
+  right: 9%;
+}
+.slider-carosel {
+  padding: 3rem 5rem;
+}
+.carousel-control-prev {
+  width: 6%;
+}
+
+.carousel-control-prev-icon {
+  background-image: url(../../../public/images/prev.svg);
+  height: 150px;
+  width: 150px;
+}
+.carousel-control-next {
+  width: 6%;
+}
+.carousel-control-next-icon {
+  background-image: url(../../../public/images/next.svg);
+  height: 150px;
+  width: 150px;
+}
+.carousel-indicators {
+  visibility: hidden;
+}
+@media (max-width: 768px) {
+  .slider-caption {
+    position: static;
+  }
+  .slider-carosel {
+    text-align: center;
+    padding: 1rem 1rem;
+  }
+  .success-para {
+    padding: 0;
+  }
+}

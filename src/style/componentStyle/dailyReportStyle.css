@@ -1,0 +1,80 @@
+/* Styles for the circular report wrapper */
+.report-wrapper {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  border: 1px solid var(--pink);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: -86px; /* Adjusts the margin for positioning */
+}
+
+/* Styles for the report icon inside the wrapper */
+.report-icon {
+  width: 40px;
+  height: 40px;
+}
+
+/* Styles for the overall report container */
+.report-container {
+  background: linear-gradient(
+    272deg,
+    rgba(253, 41, 123, 0.12) -5.84%,
+    rgba(255, 88, 100, 0.12) 98.18%
+  );
+  padding: 3rem;
+  margin-top: 6rem; /* Top margin for spacing */
+  margin-bottom: 5rem; /* Bottom margin for spacing */
+}
+
+/* Styles for the container of report icons */
+.report-icon-container {
+  padding: 0 3.5rem;
+}
+
+/* Styles for the text content within the report */
+.report-text {
+  padding: 2rem 3.5rem;
+}
+
+/* Styles for the heading of the report text */
+.report-text-heading {
+  text-align: center;
+  font-family: Poppins;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 112px; /* 200% */
+  letter-spacing: -1.4px;
+  color: var(--pink);
+}
+
+/* Styles for the paragraph of the report text */
+.report-text-para {
+  margin-bottom: 0;
+  color: var(--black);
+  text-align: center;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px; /* 175% */
+  letter-spacing: -0.24px;
+  text-transform: capitalize;
+}
+
+/* Styles for the check component */
+.check {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Media query for responsiveness on screens up to 768px */
+@media (max-width: 768px) {
+  .report-icon-container {
+    gap: 92px 0; /* Adjusts the gap between report icons for smaller screens */
+  }
+}
