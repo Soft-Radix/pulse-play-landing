@@ -7,9 +7,11 @@ import { Link } from "react-router-dom";
 
 // import "bootstrap/dist/css/bootstrap.min.css";
 
-function Header() {
+function Header(props) {
+  const { newClass } = props;
+
   return (
-    <Navbar className="main-header custom-header d-flex" expand="lg">
+    <Navbar className={`main-header ${newClass ? "custom-header" : ""}`}>
       <Container className="nav-container">
         {/* Logo Section */}
         <div className="logo-wrapper">

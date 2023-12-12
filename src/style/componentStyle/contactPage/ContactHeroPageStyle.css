@@ -3,6 +3,7 @@
 }
 
 .contactHero-heading {
+  margin-top: 67px;
   color: var(--white);
   text-align: center;
   font-family: Poppins;
@@ -36,5 +37,13 @@
   line-height: 30px; /* 166.667% */
 }
 .contactPage-text {
-  padding: 3rem;
+  padding: 3rem 18rem;
+  margin-top: 8%;
+  padding-top: 20px;
+  margin-bottom: 8%;
+}
+@media (max-width: 768px) {
+  .contactPage-text {
+    padding: 0;
+  }
 }

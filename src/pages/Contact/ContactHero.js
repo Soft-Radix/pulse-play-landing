@@ -8,7 +8,7 @@ function ContactHero() {
     backgroundImage: `url(${contactbg})`,
     backgroundSize: "cover", // Adjust as needed
     backgroundRepeat: "no-repeat",
-    height: "30em",
+    backgroundPosition: "bottom",
     position: "absolute",
     top: "0",
     zIndex: "-1",
