@@ -9,7 +9,7 @@ import { Link } from "react-router-dom";
 
 function Header() {
   return (
-    <Navbar className="main-header d-flex" expand="lg">
+    <Navbar className="main-header custom-header d-flex" expand="lg">
       <Container className="nav-container">
         {/* Logo Section */}
         <div className="logo-wrapper">
