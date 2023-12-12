@@ -3,7 +3,7 @@ import "../style/HeaderStyle.css";
 import logoImg from "../assets/logo.png";
 import logoName from "../assets/logoName.png";
 import { Navbar, Nav, Container } from "react-bootstrap";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 
 // import "bootstrap/dist/css/bootstrap.min.css";
 
@@ -11,7 +11,10 @@ function Header(props) {
   const { newClass } = props;
 
   return (
-    <Navbar className={`main-header ${newClass ? "custom-header" : ""}`}>
+    <Navbar
+      className={`${newClass ? "custom-header d-flex" : "main-header d-flex"}`}
+      expand="lg"
+    >
       <Container className="nav-container">
         {/* Logo Section */}
         <div className="logo-wrapper">
@@ -28,9 +31,9 @@ function Header(props) {
         {/* Navigation Items */}
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto nav-items">
-            <Link to="/">Home</Link>
-            <Link to="/about">About Us</Link>
-            <Link to="/contact">Contact us</Link>
+            <Nav.Link href="/">Home</Nav.Link>
+            <Nav.Link href="/about">About Us</Nav.Link>
+            <Nav.Link href="/contact">Contact us</Nav.Link>
           </Nav>
 
           {/* Navigation Buttons */}

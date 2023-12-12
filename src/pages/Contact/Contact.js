@@ -1,6 +1,6 @@
 import React from "react";
 import Header from "../../component/Header";
-// import Footer from "../../component/Footer";
+import Footer from "../../component/Footer";
 import ContactHero from "./ContactHero";
 
 function Contact() {
@@ -8,7 +8,7 @@ function Contact() {
     <>
       <Header newClass={true} />
       <ContactHero />
-      {/* <Footer /> */}
+      <Footer />
     </>
   );
 }
