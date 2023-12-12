@@ -1,5 +1,5 @@
 import React from "react";
-import "../../../style/componentStyle/dailyReportStyle.css";
+import "../../../style/componentStyle/aboutPage/dailyReportStyle.css";
 
 import headImg from "../../../assets/head.svg";
 import userImg from "../../../assets/user.svg";

@@ -1,6 +1,7 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
-import "../../../style/workStyle.css";
+
+import "../../../style/componentStyle/home/workStyle.css";
 import img1 from "../../../assets/1.svg";
 import img2 from "../../../assets/2.svg";
 import img3 from "../../../assets/3.svg";

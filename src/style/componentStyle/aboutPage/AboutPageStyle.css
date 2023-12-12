@@ -43,11 +43,11 @@
 }
 .circle {
   position: absolute;
-  left: 223px;
+  left: 220px;
   width: 16px;
   height: 16.58px;
   flex-shrink: 0;
-  top: 67px;
+  top: 71px;
 }
 .cross {
   width: 28px;

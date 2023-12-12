@@ -5,7 +5,7 @@ import dotImg from "../../../assets/dot.svg";
 import googleImg from "../../../assets/google.svg";
 import appImg from "../../../assets/app.png";
 
-import "../../../style/downloadStyle.css";
+import "../../../style/componentStyle/home/downloadStyle.css";
 import bgImg from "../../../assets/downloadBg.svg";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 function Download() {

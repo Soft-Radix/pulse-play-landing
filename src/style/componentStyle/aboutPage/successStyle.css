@@ -1,3 +1,4 @@
+/* Styles for the entire slider component */
 .slider {
   border-radius: 20px;
   background: var(
@@ -7,6 +8,8 @@
   display: flex;
   flex-direction: column;
 }
+
+/* Styles for the heading of the success section */
 .success-heading {
   color: var(--black);
   text-align: center;
@@ -16,6 +19,8 @@
   font-weight: 700;
   line-height: normal;
 }
+
+/* Styles for the span within the success heading */
 .success-heading span {
   background: var(
     --gr,
@@ -30,6 +35,8 @@
   font-weight: 700;
   line-height: normal;
 }
+
+/* Styles for the paragraph of the success section */
 .success-para {
   color: var(--grey, #677282);
   text-align: center;
@@ -40,9 +47,13 @@
   line-height: 160%; /* 25.6px */
   padding: 1rem 13rem;
 }
+
+/* Styles for the container of the success section */
 .success-container {
   padding-top: 3rem;
 }
+
+/* Styles for the heading of the individual slider items */
 .slider-heading {
   color: var(--white);
   font-family: Poppins;
@@ -51,6 +62,8 @@
   font-weight: 600;
   line-height: 110%; /* 26.4px */
 }
+
+/* Styles for the paragraph of the individual slider items */
 .slider-para {
   color: var(--white);
   font-family: Poppins;
@@ -59,49 +72,69 @@
   font-weight: 400;
   line-height: 150%; /* 24px */
 }
+
+/* Styles for the images within the slider */
 .slider-img {
-  /* width: 234.623px;
-  height: 234.623px; */
   transform: rotate(3.386deg);
   flex-shrink: 0;
 }
+
+/* Styles for the caption within the slider */
 .slider-caption {
   left: 40%;
   text-align: start;
   bottom: 5.25rem;
   right: 9%;
 }
+
+/* Styles for the carousel items within the slider */
 .slider-carosel {
   padding: 3rem 5rem;
 }
+
+/* Styles for the previous and next controls of the carousel */
 .carousel-control-prev {
   width: 6%;
 }
 
+/* Styles for the previous control icon of the carousel */
 .carousel-control-prev-icon {
-  background-image: url(../../../public/images/prev.svg);
+  background-image: url(../../../../public/images/prev.svg);
   height: 150px;
   width: 150px;
 }
+
+/* Styles for the next control of the carousel */
 .carousel-control-next {
   width: 6%;
 }
+
+/* Styles for the next control icon of the carousel */
 .carousel-control-next-icon {
-  background-image: url(../../../public/images/next.svg);
+  background-image: url(../../../../public/images/next.svg);
   height: 150px;
   width: 150px;
 }
+
+/* Styles for the indicators of the carousel (hidden in this case) */
 .carousel-indicators {
   visibility: hidden;
 }
+
+/* Media query for responsiveness on screens up to 768px */
 @media (max-width: 768px) {
+  /* Adjust the position of the caption for smaller screens */
   .slider-caption {
     position: static;
   }
+
+  /* Center-align the carousel items for smaller screens */
   .slider-carosel {
     text-align: center;
     padding: 1rem 1rem;
   }
+
+  /* Remove padding for success paragraph on smaller screens */
   .success-para {
     padding: 0;
   }

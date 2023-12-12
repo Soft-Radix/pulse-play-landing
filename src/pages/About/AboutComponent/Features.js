@@ -4,7 +4,7 @@ import { LazyLoadImage } from "react-lazy-load-image-component";
 import featuresImg from "../../../assets/featur.png";
 import redVector from "../../../assets/VectorRed.svg";
 import vectorImg from "../../../assets/Vector.svg";
-import "../../../style/componentStyle/FeaturesStyle.css";
+import "../../../style/componentStyle/aboutPage/FeaturesStyle.css";
 import { Container, Row, Col } from "react-bootstrap";
 
 // Functional component for the Features section

@@ -1,7 +1,8 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import aboutImg from "../../../assets/aboutImg.svg";
-import "../../../style/aboutStyle.css";
+
+import "../../../style/componentStyle/home/aboutStyle.css";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 
 function About() {
@@ -14,6 +15,7 @@ function About() {
               src={aboutImg}
               alt=""
               className="img-fluid about-img"
+              effect="blur"
             />
           </Col>
           <Col

@@ -27,7 +27,7 @@ function Header() {
           <Nav className="ms-auto nav-items">
             <Nav.Link href="/">Home</Nav.Link>
             <Nav.Link href="/about">About Us</Nav.Link>
-            <Nav.Link href="#">Contact us</Nav.Link>
+            <Nav.Link href="/contact">Contact us</Nav.Link>
           </Nav>
 
           {/* Navigation Buttons */}

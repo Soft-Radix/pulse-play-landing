@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import "../../../style/componentStyle/EmpowerStyle.css";
+import "../../../style/componentStyle/aboutPage/EmpowerStyle.css";
 
 import empowerImg from "../../../assets/empowerImg.svg";
 import { LazyLoadImage } from "react-lazy-load-image-component";

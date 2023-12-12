@@ -1,5 +1,5 @@
 import React from "react";
-import "../style/workStyle.css";
+
 import { Col } from "react-bootstrap";
 import hearts from "../assets/cardHeart.svg";
 
@@ -10,7 +10,7 @@ function Card(props) {
     backgroundSize: "inherit", // Adjust as needed
     backgroundPosition: "right top",
     backgroundRepeat: "no-repeat", // Adjust as needed
-    /* Other background properties if needed */
+    /* Other background properties if sneeded */
   };
   const Position = {
     position: "relative",
@@ -27,7 +27,7 @@ function Card(props) {
         ></img>
         <div className="card-text" style={Heart}>
           <div className="text-wrapper">
-            <img src={circle} alt="" className="circle img-fluid"></img>
+            <img src={circle} alt="" className="Circle img-fluid"></img>
             <h2 className="text-sign">{title}</h2>
             {/* <img src={heart} alt="" className="heart"></img> */}
           </div>
