@@ -26,7 +26,7 @@ function Header() {
         {/* Navigation Items */}
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto nav-items">
-            <Link to="/">Home2</Link>
+            <Link to="/">Home</Link>
             <Link to="/about">About Us</Link>
             <Link to="/contact">Contact us</Link>
           </Nav>
