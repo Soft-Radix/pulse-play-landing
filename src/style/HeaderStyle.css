@@ -127,7 +127,18 @@
 }
 
 .main-heading span {
-  color: var(--pink);
+  background: var(
+    --gr,
+    linear-gradient(272deg, #fd297b -5.84%, #ff5864 98.18%)
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: Poppins;
+  font-size: 58px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
 }
 
 /* Main Paragraph */

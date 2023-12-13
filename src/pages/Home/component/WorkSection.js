@@ -23,8 +23,8 @@ function WorkSection() {
       className="work-container mt-3 mb-3 pt-4 pb-5"
       style={styles}
     >
-      <Row>
-        <Col className="d-flex flex-column align-items-center justify-content-center">
+      <Row className="pt-3">
+        <Col className="d-flex flex-column align-items-center justify-content-center pt-3">
           <h1 className="work-heading">How It Works</h1>
           <p className="work-para">
             Lorem ipsum dolor sit amet consectetur. Elit egestas dui arcu nisi

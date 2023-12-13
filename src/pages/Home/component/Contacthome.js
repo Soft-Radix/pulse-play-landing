@@ -8,7 +8,7 @@ import { LazyLoadImage } from "react-lazy-load-image-component";
 
 function Contact() {
   return (
-    <Container fluid>
+    <Container>
       <Row>
         <Col
           className="d-flex flex-column align-items-start justify-content-start contact-wrapper"

@@ -13,7 +13,7 @@ function Download() {
     borderRadius: "20px",
 
     backgroundImage: `url(${bgImg})`,
-    backgroundSize: "cover", // Adjust as needed
+    backgroundSize: "auto", // Adjust as needed
     backgroundRepeat: "no-repeat", // Adjust as needed
     /* Other background properties if needed */
   };

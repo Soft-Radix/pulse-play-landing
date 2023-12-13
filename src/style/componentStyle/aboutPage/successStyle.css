@@ -81,10 +81,10 @@
 
 /* Styles for the caption within the slider */
 .slider-caption {
-  left: 40%;
-  text-align: start;
-  bottom: 5.25rem;
-  right: 9%;
+  left: 40% !important;
+  text-align: start !important;
+  bottom: 5.25rem !important;
+  right: 9% !important;
 }
 
 /* Styles for the carousel items within the slider */
@@ -94,26 +94,26 @@
 
 /* Styles for the previous and next controls of the carousel */
 .carousel-control-prev {
-  width: 6%;
+  width: 6% !important;
 }
 
 /* Styles for the previous control icon of the carousel */
 .carousel-control-prev-icon {
-  background-image: url(../../../../public/images/prev.svg);
-  height: 150px;
-  width: 150px;
+  background-image: url(../../../../public/images/prev.svg) !important;
+  height: 150px !important;
+  width: 150px !important;
 }
 
 /* Styles for the next control of the carousel */
 .carousel-control-next {
-  width: 6%;
+  width: 6% !important;
 }
 
 /* Styles for the next control icon of the carousel */
 .carousel-control-next-icon {
-  background-image: url(../../../../public/images/next.svg);
-  height: 150px;
-  width: 150px;
+  background-image: url(../../../../public/images/next.svg) !important;
+  height: 150px !important;
+  width: 150px !important;
 }
 
 /* Styles for the indicators of the carousel (hidden in this case) */
