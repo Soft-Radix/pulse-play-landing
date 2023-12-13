@@ -1,6 +1,7 @@
-/* .custom-header {
+.custom-header {
   background-color: transparent;
-} */
+  border-bottom: 1px solid rgba(255, 255, 255, 0.14);
+}
 
 .contactHero-heading {
   margin-top: 67px;
@@ -11,6 +12,35 @@
   font-style: normal;
   font-weight: 600;
   line-height: normal;
+}
+.crossImg {
+  left: 0%;
+  bottom: 6%;
+  position: absolute;
+}
+.purpleImg {
+  position: absolute;
+  top: 30%;
+  left: 17%;
+  z-index: -1;
+}
+.pinkIMG {
+  position: absolute;
+  left: 56%;
+  z-index: -1;
+  bottom: 37px;
+}
+.pinkimg1 {
+  position: absolute;
+  z-index: -1;
+  right: 15%;
+  top: 49%;
+}
+.starImg {
+  position: absolute;
+  z-index: -1;
+  bottom: 1%;
+  right: 10%;
 }
 .contactHero-heading span {
   background: var(
@@ -37,13 +67,11 @@
   line-height: 30px; /* 166.667% */
 }
 .contactPage-text {
-  padding: 3rem 18rem;
-  margin-top: 8%;
-  padding-top: 20px;
   margin-bottom: 8%;
+  padding: 8rem 18rem 4rem 18rem !important;
 }
 @media (max-width: 768px) {
   .contactPage-text {
-    padding: 0;
+    padding: 0 !important;
   }
 }

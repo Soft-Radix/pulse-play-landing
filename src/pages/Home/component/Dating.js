@@ -15,17 +15,9 @@ function Dating() {
     <Container fluid className="main-wrapper">
       <Row>
         <Col md={7}>
-          <img
-            src={xImg}
-            alt=""
-            className="img-fluid"
-            style={{ position: "absolute", top: "38em" }}
-          ></img>
-          <img
-            src={circleImg}
-            alt=""
-            style={{ position: "absolute", top: "40%", left: "16%" }}
-          ></img>
+          <img src={xImg} alt="" className="img-fluid xImg"></img>
+          <img src={circleImg} alt="" className="circlePurpleImg"></img>
+          <img src={pinkImg} alt="" className="pinkImg"></img>
 
           <div className="main-text">
             <h1 className="main-heading">
@@ -60,11 +52,6 @@ function Dating() {
           </div>
         </Col>
         <Col md={5}>
-          <img
-            src={pinkImg}
-            alt=""
-            style={{ position: "absolute", right: "44%", top: "36em" }}
-          ></img>
           <div className="text-image img-fluid">
             <LazyLoadImage
               src={textImg}

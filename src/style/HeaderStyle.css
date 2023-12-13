@@ -6,7 +6,20 @@
   display: flex;
   border-bottom: 1px solid rgba(255, 255, 255, 0.14);
 }
-
+.xImg {
+  position: relative;
+  top: 30em;
+}
+.circlePurpleImg {
+  position: relative;
+  top: 5%;
+  left: 27%;
+}
+.pinkImg {
+  position: relative;
+  left: 90%;
+  top: 93%;
+}
 /* Navigation Container */
 .nav-container {
   width: 100%;

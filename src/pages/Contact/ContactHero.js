@@ -24,6 +24,11 @@ function ContactHero() {
       style={contactBg}
       className="pt-3 pb-3 contactPage-container"
     >
+      <img src={xImg} alt="" className="crossImg"></img>
+      <img src={purpleImg} alt="" className="purpleImg"></img>
+      <img src={pinkImg} alt="" className="pinkIMG"></img>
+      <img src={pink1Img} alt="" className="pinkimg1"></img>
+      <img src={starImg} alt="" className="starImg"></img>
       <Row>
         <Col className="contactPage-text">
           <h1 className="contactHero-heading">
@@ -34,11 +39,6 @@ function ContactHero() {
             ipsum montes praesent sagittis. Eget proin sapien volutpat a hac
             vulputate. Eleifend nec{" "}
           </p>
-          <img src={purpleImg} alt=""></img>
-          <img src={xImg} alt=""></img>
-          <img src={pinkImg} alt=""></img>
-          <img src={pink1Img} alt=""></img>
-          <img src={starImg} alt=""></img>
         </Col>
       </Row>
     </Container>
