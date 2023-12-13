@@ -1,0 +1,22 @@
+.desc-heading {
+  color: #000;
+  font-family: Poppins;
+  font-size: 44px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.desc-para {
+  color: var(--grey-200, #4a4a4b);
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  padding: 1rem 31rem 3rem 0;
+  line-height: 160%; /* 25.6px */
+}
+@media (max-width: 768px) {
+  .desc-para {
+    padding: 0;
+  }
+}
