@@ -73,5 +73,9 @@
 @media (max-width: 768px) {
   .contactPage-text {
     padding: 0 !important;
+    margin-top: 2rem !important;
+  }
+  .custom-header {
+    background-color: black;
   }
 }

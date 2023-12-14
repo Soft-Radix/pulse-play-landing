@@ -8,12 +8,9 @@ import { LazyLoadImage } from "react-lazy-load-image-component";
 
 function Contact() {
   return (
-    <Container>
+    <Container fluid style={{ paddingLeft: "4rem" }}>
       <Row>
-        <Col
-          className="d-flex flex-column align-items-start justify-content-start contact-wrapper"
-          md={6}
-        >
+        <Col className="d-flex flex-column align-items-start justify-content-start contact-wrapper">
           <h1 className="contact-heading">
             Create <span>Short Profile</span> Videos
           </h1>
@@ -27,7 +24,7 @@ function Contact() {
           </p>
           <img src={btnImg} alt="" className="contact-btn"></img>
         </Col>
-        <Col md={6}>
+        <Col>
           <LazyLoadImage
             src={contImg}
             alt=""

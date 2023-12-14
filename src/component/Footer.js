@@ -16,7 +16,7 @@ function Footer() {
     <>
       <Container fluid className="bg-dark mt-5 pb-3 ">
         <Row className="footer-container">
-          <Col md={4} sm={6} xs={12}>
+          <Col md={4} sm={12} xs={12}>
             <img
               src={Logoimg}
               alt=""

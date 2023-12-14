@@ -1,0 +1,39 @@
+.address-wrapper {
+  flex-shrink: 0;
+  background-color: var(--white);
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 2rem;
+  margin-top: -36px;
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: 0px 4px 35px 0px rgba(243, 214, 214, 0.42);
+}
+.address-img {
+  width: 75px;
+  height: 75px;
+  flex-shrink: 0;
+}
+.address-para {
+  color: #000;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 140% */
+}
+.address-para1 {
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 28px; /* 140% */
+  background: var(
+    --gr,
+    linear-gradient(272deg, #fd297b -5.84%, #ff5864 98.18%)
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

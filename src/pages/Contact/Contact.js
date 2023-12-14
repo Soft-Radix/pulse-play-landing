@@ -4,6 +4,8 @@ import Footer from "../../component/Footer";
 import ContactHero from "./ContactHero";
 import ContactDetails from "./ContactDetails";
 import ContactDescription from "./ContactDescription";
+import ContactAddress from "./ContactAddress";
+import GoogleMap from "./GoogleMap";
 
 function Contact() {
   return (
@@ -12,6 +14,8 @@ function Contact() {
       <ContactHero />
       <ContactDetails />
       <ContactDescription />
+      <ContactAddress />
+      <GoogleMap />
       <Footer />
     </>
   );

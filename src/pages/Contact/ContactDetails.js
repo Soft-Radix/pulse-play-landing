@@ -11,27 +11,28 @@ import linkImg from "../../assets/LinkedIn.svg";
 import instaImg from "../../assets/Instagram.svg";
 function ContactDetails() {
   return (
-    <Container>
-      <Row>
+    <Container className="detail-container">
+      <Row className="detail-row">
         <Col>
           <LazyLoadImage
             src={detailIMg}
             effect="blur"
             alt=""
-            className="img-fluid"
+            className="img-fluid detail-Img"
           />
         </Col>
         <Col style={{ padding: "3rem 1rem" }}>
           <h2 className="contactDetail-heading">Add Contact Details </h2>
 
-          <div>
+          <Col >
             <ContactForm />
-          </div>
+          </Col>
         </Col>
       </Row>
       <Row>
         <Col
-          md={6}
+          md={12}
+          xs={12}
           className="d-flex
            gap-5"
         >

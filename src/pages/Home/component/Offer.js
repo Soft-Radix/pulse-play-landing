@@ -14,7 +14,7 @@ function Offer() {
       className="pt-3 pb-3"
     >
       <Row className="justify-content-center align-items-center offer-wrapper">
-        <Col md={6}>
+        <Col md={6} style={{ padding: "2rem" }}>
           <h1 className="offer-heading">
             What You Discover With Our <span>Premium</span> Package
           </h1>

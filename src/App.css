@@ -5,13 +5,13 @@
 }
 body,
 html {
-  font-family: "Poppins", sans-serif;
   font-family: "Caveat", cursive;
   font-family: "Inter", sans-serif;
   font-family: "Kantumruy Pro", sans-serif;
   font-family: "Libre Baskerville", serif;
   font-family: "Roboto", sans-serif;
   font-family: "Roboto Slab", serif;
+  font-family: "Poppins", sans-serif;
   list-style: none;
   text-decoration: none;
   scroll-behavior: smooth;

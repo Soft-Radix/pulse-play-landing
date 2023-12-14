@@ -7,7 +7,7 @@ function ContactForm() {
   return (
     <>
       <Form className="form-wrapper">
-        <Col className="form-container">
+        <Col className="form-container" md={6}>
           <div className="form-input">
             <Form.Control
               type="text"
@@ -25,7 +25,7 @@ function ContactForm() {
             <img src={profileImg} alt="" className="form-icon"></img>
           </div>
         </Col>
-        <Col className="form-container">
+        <Col className="form-container" md={6}>
           <div className="form-input">
             <Form.Control
               type="text"

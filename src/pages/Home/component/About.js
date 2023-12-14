@@ -8,7 +8,7 @@ import { LazyLoadImage } from "react-lazy-load-image-component";
 function About() {
   return (
     <>
-      <Container className="mt-5 pb-4 about-wrapper">
+      <Container className="mt-5 pb-4 mt-3 about-wrapper">
         <Row className="d-flex flex-row-reverse">
           <Col md={6} className="pt-4 order-md-1">
             <LazyLoadImage
