@@ -48,4 +48,10 @@
     padding-top: 1rem;
     padding-left: 1rem;
   }
+  .row-contact {
+    flex-direction: column;
+  }
+  .contact-img {
+    width: 100%;
+  }
 }

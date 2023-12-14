@@ -12,57 +12,58 @@ import pinkImg from "../../../assets/circlePink.svg";
 
 function Dating() {
   return (
-    <Container fluid className="main-wrapper">
-      <Row>
-        <Col md={7}>
-          <img src={xImg} alt="" className="img-fluid xImg"></img>
-          <img src={circleImg} alt="" className="circlePurpleImg"></img>
-          <img src={pinkImg} alt="" className="pinkImg"></img>
+    <div className="main-wrapper">
+      <img src={xImg} alt="" className="img-fluid xImg"></img>
+      <img src={circleImg} alt="" className="circlePurpleImg"></img>
+      <img src={pinkImg} alt="" className="pinkImg"></img>
+      <Container>
+        <Row>
+          <Col md={7}>
+            <div className="main-text">
+              <h1 className="main-heading">
+                Here’s to
+                <span> Video Dating </span>
+                <br></br>with Confidence.
+              </h1>
+              <p className="main-para">
+                Lorem ipsum dolor sit amet consectetur. Magna velit at tincidunt
+                <br></br>
+                ipsum montes praesent sagittis. Eget proin sapien volutpat a hac
+                <br></br>
+                vulputate. Eleifend nec{" "}
+              </p>
 
-          <div className="main-text">
-            <h1 className="main-heading">
-              Here’s to
-              <span> Video Dating </span>
-              <br></br>with Confidence.
-            </h1>
-            <p className="main-para">
-              Lorem ipsum dolor sit amet consectetur. Magna velit at tincidunt
-              <br></br>
-              ipsum montes praesent sagittis. Eget proin sapien volutpat a hac
-              <br></br>
-              vulputate. Eleifend nec{" "}
-            </p>
+              {/* Text Button Section */}
+              <div className="text-btn">
+                <LazyLoadImage
+                  src={googleImg}
+                  alt=""
+                  className="img-fluid textImg"
+                  effect="blur"
+                />
 
-            {/* Text Button Section */}
-            <div className="text-btn">
+                <LazyLoadImage
+                  src={appImg}
+                  alt=""
+                  className="img-fluid textImg"
+                  effect="blur"
+                />
+              </div>
+            </div>
+          </Col>
+          <Col md={5}>
+            <div className="text-image img-fluid">
               <LazyLoadImage
-                src={googleImg}
-                alt=""
-                className="img-fluid textImg"
-                effect="blur"
-              />
-
-              <LazyLoadImage
-                src={appImg}
+                src={textImg}
                 alt=""
                 className="img-fluid textImg"
                 effect="blur"
               />
             </div>
-          </div>
-        </Col>
-        <Col md={5}>
-          <div className="text-image img-fluid">
-            <LazyLoadImage
-              src={textImg}
-              alt=""
-              className="img-fluid textImg"
-              effect="blur"
-            />
-          </div>
-        </Col>
-      </Row>
-    </Container>
+          </Col>
+        </Row>
+      </Container>
+    </div>
   );
 }
 

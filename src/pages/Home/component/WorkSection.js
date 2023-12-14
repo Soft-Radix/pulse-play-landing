@@ -18,53 +18,51 @@ function WorkSection() {
   };
 
   return (
-    <Container
-      fluid
-      className="work-container mt-3 mb-3 pt-4 pb-5"
-      style={styles}
-    >
-      <Row className="pt-3">
-        <Col className="d-flex flex-column align-items-center justify-content-center pt-3">
-          <h1 className="work-heading">How It Works</h1>
-          <p className="work-para">
-            Lorem ipsum dolor sit amet consectetur. Elit egestas dui arcu nisi
-            vel quam sit. Urna aliquet id convallis in semper egestas leo. Amet
-            ultrices ut hendrerit consequat est tincidunt pharetra egestas
-            porttitor. Ut amet non nunc non vitae orci nunc.
-          </p>
-        </Col>
-      </Row>
+    <div style={styles}>
+      <Container className="work-container ">
+        <Row className="pt-3">
+          <Col className="d-flex flex-column align-items-center justify-content-center pt-3">
+            <h1 className="work-heading">How It Works</h1>
+            <p className="work-para">
+              Lorem ipsum dolor sit amet consectetur. Elit egestas dui arcu nisi
+              vel quam sit. Urna aliquet id convallis in semper egestas leo.
+              Amet ultrices ut hendrerit consequat est tincidunt pharetra
+              egestas porttitor. Ut amet non nunc non vitae orci nunc.
+            </p>
+          </Col>
+        </Row>
 
-      <Row className="custom-card mt-3">
-        <Card
-          imgSrc={img1}
-          title={"Sign up now"}
-          description={
-            "Lorem ipsum dolor sit amet consectetur. Elit egestas dui arcu nisi vel quam sit. Urna aliquet id convallis in semper egestas leo. Amet ultrices ut he"
-          }
-          circle={circle}
-          left="-75px"
-        />
-        <Card
-          imgSrc={img2}
-          title={"Add Information"}
-          description={
-            "Lorem ipsum dolor sit amet consectetur. Elit egestas dui arcu nisi vel quam sit. Urna aliquet id convallis in semper egestas leo. Amet ultrices ut he"
-          }
-          circle={circle}
-          left="-100px"
-        />
-        <Card
-          imgSrc={img3}
-          title={"Find your match"}
-          description={
-            "Lorem ipsum dolor sit amet consectetur. Elit egestas dui arcu nisi vel quam sit. Urna aliquet id convallis in semper egestas leo. Amet ultrices ut he"
-          }
-          circle={circle}
-          left="-100px"
-        />
-      </Row>
-    </Container>
+        <Row className="custom-card mt-3">
+          <Card
+            imgSrc={img1}
+            title={"Sign up now"}
+            description={
+              "Lorem ipsum dolor sit amet consectetur. Elit egestas dui arcu nisi vel quam sit. Urna aliquet id convallis in semper egestas leo. Amet ultrices ut he"
+            }
+            circle={circle}
+            left="-75px"
+          />
+          <Card
+            imgSrc={img2}
+            title={"Add Information"}
+            description={
+              "Lorem ipsum dolor sit amet consectetur. Elit egestas dui arcu nisi vel quam sit. Urna aliquet id convallis in semper egestas leo. Amet ultrices ut he"
+            }
+            circle={circle}
+            left="-100px"
+          />
+          <Card
+            imgSrc={img3}
+            title={"Find your match"}
+            description={
+              "Lorem ipsum dolor sit amet consectetur. Elit egestas dui arcu nisi vel quam sit. Urna aliquet id convallis in semper egestas leo. Amet ultrices ut he"
+            }
+            circle={circle}
+            left="-100px"
+          />
+        </Row>
+      </Container>
+    </div>
   );
 }
 

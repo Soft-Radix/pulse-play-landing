@@ -8,8 +8,8 @@ import { LazyLoadImage } from "react-lazy-load-image-component";
 
 function Contact() {
   return (
-    <Container fluid style={{ paddingLeft: "4rem" }}>
-      <Row>
+    <Container>
+      <Row className="row-contact">
         <Col className="d-flex flex-column align-items-start justify-content-start contact-wrapper">
           <h1 className="contact-heading">
             Create <span>Short Profile</span> Videos
