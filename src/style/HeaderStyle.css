@@ -12,11 +12,13 @@
 }
 .circlePurpleImg {
   position: absolute;
-  top: 31%;
+
   left: 17%;
 }
 .pinkImg {
-  position: relative;
+  position: absolute;
+  bottom: 1%;
+  left: -7%;
 }
 /* Navigation Container */
 .nav-container {
@@ -173,16 +175,10 @@
 
 /* Text Image Section */
 
-/* .textImage {
-  width: 100%;
-  height: auto; /* Maintain aspect ratio */
-/* max-width: 100%; Limit size on larger screens */
-/* }  */
-
-.textImage {
-  width: 31.31vw;
-  height: 32vw;
+.text-image {
+  text-align: right;
 }
+
 @media (max-width: 768px) {
   .nav-button {
     flex-direction: column;

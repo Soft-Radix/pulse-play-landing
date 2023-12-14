@@ -33,13 +33,17 @@
 .download-Img {
   display: flex;
   gap: 10px;
-  width: 163.98px;
-  height: 52.447px;
-  flex-shrink: 0;
-  border: 1px solid #ffffff;
-  border-radius: 9.8px;
 }
 .dating-img {
   padding-top: 2.5rem;
   /* height: 342px; */
+}
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .row-download {
+    padding-top: 0 !important;
+  }
+  .download-column {
+    padding-top: 0 !important  ;
+    padding-left: 1rem;
+  }
 }

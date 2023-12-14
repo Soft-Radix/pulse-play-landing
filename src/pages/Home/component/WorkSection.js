@@ -19,7 +19,7 @@ function WorkSection() {
 
   return (
     <div style={styles}>
-      <Container className="work-container ">
+      <Container className="work-container pb-5 ">
         <Row className="pt-3">
           <Col className="d-flex flex-column align-items-center justify-content-center pt-3">
             <h1 className="work-heading">How It Works</h1>

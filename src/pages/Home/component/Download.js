@@ -2,8 +2,8 @@ import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import downImg from "../../../assets/download.svg";
 import dotImg from "../../../assets/dot.svg";
-import googleImg from "../../../assets/google.svg";
-import appImg from "../../../assets/app.png";
+import googleImg from "../../../assets/newGoogle.svg";
+import appImg from "../../../assets/newApple.svg";
 
 import "../../../style/componentStyle/home/downloadStyle.css";
 import bgImg from "../../../assets/downloadBg.svg";
@@ -11,7 +11,7 @@ import { LazyLoadImage } from "react-lazy-load-image-component";
 function Download() {
   const BackGround = {
     borderRadius: "20px",
-
+    marginTop: "2.5rem",
     backgroundImage: `url(${bgImg})`,
     backgroundSize: "auto", // Adjust as needed
     backgroundRepeat: "no-repeat", // Adjust as needed
@@ -23,9 +23,9 @@ function Download() {
   };
 
   return (
-    <Container style={BackGround} className="pt-3">
-      <Row className="pt-3 ">
-        <Col md={6} style={padding}>
+    <Container style={BackGround} className="pt-3 mb-3 pb-3">
+      <Row className="pt-3  row-download">
+        <Col md={6} style={padding} className="download-column">
           <h1 className="down-heading">Download Now</h1>
           <p className="down-para">
             Lorem ipsum dolor sit amet consectetur. Morbi fames noLorem ipsum

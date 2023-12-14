@@ -14,11 +14,11 @@ function Dating() {
   return (
     <div className="main-wrapper">
       <img src={xImg} alt="" className="img-fluid xImg"></img>
-      <img src={circleImg} alt="" className="circlePurpleImg"></img>
-      <img src={pinkImg} alt="" className="pinkImg"></img>
+
       <Container>
         <Row>
-          <Col md={7}>
+          <Col md={7} style={{ position: "relative" }}>
+            <img src={circleImg} alt="" className="circlePurpleImg"></img>
             <div className="main-text">
               <h1 className="main-heading">
                 Here’s to
@@ -51,8 +51,9 @@ function Dating() {
               </div>
             </div>
           </Col>
-          <Col md={5}>
-            <div className="text-image img-fluid">
+          <Col md={5} style={{ position: "relative" }}>
+            <img src={pinkImg} alt="" className="pinkImg"></img>
+            <div className="text-image">
               <LazyLoadImage
                 src={textImg}
                 alt=""

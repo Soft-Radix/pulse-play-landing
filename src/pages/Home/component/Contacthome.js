@@ -25,11 +25,7 @@ function Contact() {
           <img src={btnImg} alt="" className="contact-btn"></img>
         </Col>
         <Col>
-          <LazyLoadImage
-            src={contImg}
-            alt=""
-            className="img-fluid contact-img"
-          />
+          <LazyLoadImage src={contImg} alt="" className="contact-img" />
         </Col>
       </Row>
     </Container>
