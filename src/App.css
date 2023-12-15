@@ -3,6 +3,23 @@
   padding: 0;
   box-sizing: border-box;
 }
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+
 body,
 html {
   font-family: "Caveat", cursive;
@@ -12,8 +29,7 @@ html {
   font-family: "Roboto", sans-serif;
   font-family: "Roboto Slab", serif;
   font-family: "Poppins", sans-serif;
-  list-style: none;
-  text-decoration: none;
+
   scroll-behavior: smooth;
 }
 :root {

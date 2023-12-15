@@ -1,8 +1,11 @@
 import React from "react";
 import { Col } from "react-bootstrap";
+import { useNavigate } from "react-router-dom";
 
-function footerCard(props) {
-  const { heading, list1, list2, list3, Img, Img1 } = props;
+function FooterCard(props) {
+  const navigate = useNavigate();
+  const { heading, list1, list2, list3, Img, Img1, link3, link2 } = props;
+  console.log(list2, "list2");
   return (
     <>
       <Col
@@ -20,14 +23,30 @@ function footerCard(props) {
         <div className="contact-icon">
           {Img1 && <img src={Img1} className="img-fluid img-wrap" alt=""></img>}
 
-          <span className="footer-nav-list">{list2}</span>
+          <span
+            className="footer-nav-list"
+            onClick={() => {
+              if (!link2) return;
+              navigate(link2);
+            }}
+          >
+            {list2}
+          </span>
         </div>
         <div>
-          <span className="footer-nav-list">{list3}</span>
+          <span
+            className="footer-nav-list"
+            onClick={() => {
+              if (!link3) return;
+              navigate(link3);
+            }}
+          >
+            {list3}
+          </span>
         </div>
       </Col>
     </>
   );
 }
 
-export default footerCard;
+export default FooterCard;

@@ -3,6 +3,7 @@ import "../style/HeaderStyle.css";
 import logoImg from "../assets/logo.png";
 import logoName from "../assets/logoName.png";
 import { Navbar, Nav, Container } from "react-bootstrap";
+import { Link } from "react-router-dom";
 // import { Link } from "react-router-dom";
 
 // import "bootstrap/dist/css/bootstrap.min.css";
@@ -31,9 +32,9 @@ function Header(props) {
         {/* Navigation Items */}
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto nav-items">
-            <Nav.Link href="/">Home</Nav.Link>
-            <Nav.Link href="/about">About Us</Nav.Link>
-            <Nav.Link href="/contact">Contact us</Nav.Link>
+            <Link to="/">Home</Link>
+            <Link to="/about">About Us</Link>
+            <Link to="/contact">Contact us</Link>
           </Nav>
 
           {/* Navigation Buttons */}
