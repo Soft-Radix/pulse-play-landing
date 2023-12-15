@@ -4,8 +4,8 @@ import { useNavigate } from "react-router-dom";
 
 function FooterCard(props) {
   const navigate = useNavigate();
-  const { heading, list1, list2, list3, Img, Img1, link3, link2 } = props;
-  console.log(list2, "list2");
+  const { heading, list1, list2, list3, Img, Img1, link3, link1 } = props;
+
   return (
     <>
       <Col
@@ -26,8 +26,8 @@ function FooterCard(props) {
           <span
             className="footer-nav-list"
             onClick={() => {
-              if (!link2) return;
-              navigate(link2);
+              if (!link1) return;
+              navigate(link1);
             }}
           >
             {list2}

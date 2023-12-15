@@ -47,7 +47,7 @@ function Footer() {
               list1={"Help Center"}
               list2={"Terms and Conditions"}
               list3={"Privacy Policy"}
-              link1="/term"
+              link1="/terms"
               link3="/privacy"
             />
             <FooterCard

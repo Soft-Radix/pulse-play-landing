@@ -1,0 +1,70 @@
+.policy-heading {
+  color: var(--black);
+  font-family: Poppins;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.policy-para {
+  color: var(--grey-200, #4a4a4b);
+  text-align: justify;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+}
+.policy-heading1 {
+  color: #000;
+  font-family: Poppins;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  padding: 1rem 0px;
+}
+
+.policy-heading2 {
+  color: #000;
+  text-align: justify;
+  font-family: Poppins;
+  font-size: 22px;
+  font-style: normal;
+  padding: 1rem 0;
+
+  font-weight: 500;
+  line-height: 24px; /* 109.091% */
+}
+.policy-newpara {
+  color: var(--grey-200, #4a4a4b);
+  text-align: justify;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+}
+.span-email {
+  background: var(
+    --gr,
+    linear-gradient(272deg, #fd297b -5.84%, #ff5864 98.18%)
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+}
+.term-para {
+  color: #000;
+  font-family: Poppins;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-top: 2rem;
+}

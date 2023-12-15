@@ -9,8 +9,8 @@ function PrivacyHero() {
     backgroundSize: "cover", // Adjust as needed
     backgroundRepeat: "no-repeat",
     backgroundPosition: "bottom",
-    position: "absolute",
-    top: "0px",
+    position: "relative",
+    top: "-101px",
     zIndex: -1,
   };
 

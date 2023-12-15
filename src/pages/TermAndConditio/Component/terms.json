@@ -1,0 +1,124 @@
+[
+    {
+        "title": " ACCEPTANCE OF TERMS",
+        "information": [
+            {
+                
+                "description": "By accessing or using [Dating App Name], you agree to comply with and be bound by these Terms. If you do not agree with these Terms, please do not use the app."
+            }
+           
+        ]
+    },
+    {
+        "title": " USER ELIGIBILITY",
+        "information": [
+            {
+                
+                "description": "You must be at least 18 years old to use [Dating App Name]. By using the app, you confirm that you are of legal age."            }
+            
+        ]
+    },
+    {
+        "title": " USER ACCOUNT",
+        "information": [
+            {
+                "heading": "Registration",
+                "description": "To access certain features, you may need to create a user account. You agree to provide accurate and current information during the registration process."
+
+            },
+            {
+                "heading": "Account Security",
+                "description": "You are responsible for maintaining the confidentiality of your account credentials. Notify us immediately of any unauthorized access or use of your account."                
+            }
+        ]
+    },
+    {
+        "title": " USER CONDUCT",
+        "information": [
+            {
+                "heading": "Compliance",
+                "description": "Users must comply with all applicable laws and regulations while using Pulse Play."
+            },
+            {
+                "heading": "Prohibited Activities",
+                "description": "Users are prohibited from engaging in activities that could harm the app, other users, or violate these Terms."
+
+            }
+        ]
+    },
+    {
+        "title": " CONTENT AND INTELLECTUAL PROPERTY",
+        "information": [
+            {
+                "heading": "User Content",
+                "description": "By using the app, you grant Pulse Play a non-exclusive, royalty-free license to use, modify, and distribute your content for the purpose of providing and improving our services."
+
+            },
+            {
+                "heading": "Intellectual Property",
+                "description": "All content, trademarks, and intellectual property on the app are owned by or licensed to [Dating App Name]. Users may not use, reproduce, or distribute any content without prior authorization."
+            }
+        ]
+    },
+    {
+        "title": " PRIVACY",
+        "information": [
+            {
+                "description": "Your use of Pulse Play is also governed by our Privacy Policy, which you can find at [provide link]. By using the app, you consent to the practices outlined in the Privacy Policy."
+            }
+        ]
+    },
+    {
+        "title": " TERMINATION",
+        "information": [
+            {
+                "description": "Pulse Play reserves the right to terminate or suspend your account at any time for any reason, without prior notice."
+            }
+        ]
+    },
+    {
+        "title": " DISCLAIMER OF WARRANTIES",
+        "information": [
+            {
+                "description": "The app is provided as is without warranties of any kind. Pulse Play makes no guarantees regarding the accuracy, reliability, or availability of the app."
+                
+            }
+        ]
+    },
+    {
+        "title": " LIMITATION OF LIABILITY",
+        "information": [
+            {
+                "description": "To the extent permitted by law, [Dating App Name] shall not be liable for any indirect, incidental, special, consequential, or punitive damages, or any loss of profits or revenues."
+
+
+            }
+        ]
+    },
+    {
+        "title": " MODIFICATIONS TO TERMS",
+        "information": [
+            {
+                "description": "Pulse Play reserves the right to modify these Terms at any time. Changes will be effective upon posting on the app. Continued use constitutes acceptance of the modified Terms."
+            }
+        ]
+    },
+    {
+        "title": " GOVERNING LAW",
+        "information": [
+            {
+                "description": "These Terms are governed by and construed in accordance with the laws of [Your Jurisdiction], without regard to its conflict of law principles."
+
+            }
+        ]
+    },
+    {
+        "title": "CONTACT INFORMATION",
+        "information": [
+            {
+                "description": "For questions or concerns regarding these Terms, please contact us at info@softradix.com."
+            }
+        ]
+    }
+    
+]
