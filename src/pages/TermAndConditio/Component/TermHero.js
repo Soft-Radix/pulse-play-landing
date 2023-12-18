@@ -1,6 +1,6 @@
 import React from "react";
 import { Col, Row, Container } from "react-bootstrap";
-import bgTerm from "../../../assets/termBg.svg";
+import bgTerm from "../../../assets/terms.svg";
 
 function TermHero() {
   const termHeroBg = {

@@ -3,10 +3,9 @@ import Value from "./terms.json";
 import { Col, Container, Row } from "react-bootstrap";
 import "../../../style/componentStyle/privacyPage/PolicyStyle.css";
 function Terms() {
-  console.log(Value, "hujh");
   return (
     <Container className="pt-2 pb-3 ">
-      <Row style={{ marginBottom: "2rem" }}>
+      <Row>
         <Col className="pl-2 pr-3">
           {Value.map((item, index) => {
             return (

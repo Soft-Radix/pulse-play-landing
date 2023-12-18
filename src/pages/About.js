@@ -4,7 +4,7 @@ import Header from "../component/Header"; // Importing Header component
 import Footer from "../component/Footer"; // Importing Footer component
 import AboutHero from "./About/AboutComponent/AboutHero";
 import Features from "./About/AboutComponent/Features";
-import Empower from "./About/AboutComponent/Empower";
+// import Empower from "./About/AboutComponent/Empower";
 import Success from "./About/AboutComponent/Success";
 import DailyReport from "./About/AboutComponent/DailyReport";
 import Download from "./Home/component/Download";
@@ -17,7 +17,7 @@ function About() {
       <AboutHero />
       {/* Rendering the AboutHero component */}
       <Features /> {/* Rendering the Features component */}
-      <Empower /> {/* Rendering the Empower component */}
+      {/* <Empower /> Rendering the Empower component */}
       <Success />
       <DailyReport />
       <Download />

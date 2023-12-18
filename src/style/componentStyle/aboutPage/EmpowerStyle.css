@@ -149,11 +149,17 @@
 .progressbar li.active + li:after {
   background-color: #fd3575;
 }
+.progress-container {
+  display: flex;
+  gap: 20px;
+}
 
 /* Custom Class for Flex Display */
 .custom {
   display: flex;
-  gap: 20px;
+  flex-direction: column;
+  align-items: center;
+  gap: 0px;
 }
 
 /* Media Query for Smaller Screens */
