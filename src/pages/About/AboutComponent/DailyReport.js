@@ -11,36 +11,43 @@ import DailyReportCard from "../../../component/DailyReportCard";
 function DailyReport() {
   return (
     // Container for the daily report section
-    <Container fluid className="report-container ">
-      {/* Row to contain the DailyReportCard components */}
-      <Row>
-        {/* Column with flex-wrap to allow responsive layout */}
-        <Col className="d-flex flex-wrap  report-icon-container">
-          {/* Each DailyReportCard represents a statistic */}
-           {/* Import DailyReportCard  */}
-          <DailyReportCard
-            reportImg={headImg}
-            reportHeading={"1830+"}
-            reporttext={"love stories"}
-          />
-          <DailyReportCard
-            reportImg={locationImg}
-            reportHeading={"2200+"}
-            reporttext={"daters worldwide"}
-          />
-          <DailyReportCard
-            reportImg={chatImg}
-            reportHeading={"390+"}
-            reporttext={"exciting chats"}
-          />
-          <DailyReportCard
-            reportImg={userImg}
-            reportHeading={"834+"}
-            reporttext={"daily active daters"}
-          />
-        </Col>
-      </Row>
-    </Container>
+    <div
+      style={{
+        background:
+          "linear-gradient(272deg,rgba(253, 41, 123, 0.12) -5.84%,rgba(255, 88, 100, 0.12) 98.18%)",
+      }}
+    >
+      <Container className="report-container ">
+        {/* Row to contain the DailyReportCard components */}
+        <Row>
+          {/* Column with flex-wrap to allow responsive layout */}
+          <Col className="d-flex flex-wrap  report-icon-container">
+            {/* Each DailyReportCard represents a statistic */}
+            {/* Import DailyReportCard  */}
+            <DailyReportCard
+              reportImg={headImg}
+              reportHeading={"1830+"}
+              reporttext={"love stories"}
+            />
+            <DailyReportCard
+              reportImg={locationImg}
+              reportHeading={"2200+"}
+              reporttext={"daters worldwide"}
+            />
+            <DailyReportCard
+              reportImg={chatImg}
+              reportHeading={"390+"}
+              reporttext={"exciting chats"}
+            />
+            <DailyReportCard
+              reportImg={userImg}
+              reportHeading={"834+"}
+              reporttext={"daily active daters"}
+            />
+          </Col>
+        </Row>
+      </Container>
+    </div>
   );
 }
 

@@ -1,6 +1,6 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
-import downImg from "../../../assets/download.svg";
+import downImg from "../../../assets/download.png";
 import dotImg from "../../../assets/dot.svg";
 import googleImg from "../../../assets/newGoogle.svg";
 import appImg from "../../../assets/newApple.svg";

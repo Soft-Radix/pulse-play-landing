@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import aboutImg from "../../../assets/aboutImg.svg";
+import aboutImg from "../../../assets/newAbout.png";
 
 import "../../../style/componentStyle/home/aboutStyle.css";
 import { LazyLoadImage } from "react-lazy-load-image-component";

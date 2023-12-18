@@ -182,7 +182,7 @@
 
 @media (max-width: 768px) {
   .nav-button {
-    justify-content: space-between;
+    gap: 16px;
     margin-top: 16px;
   }
   .nav-items {

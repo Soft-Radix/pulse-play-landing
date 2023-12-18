@@ -1,6 +1,6 @@
 import React from "react";
 import { Row, Container, Col } from "react-bootstrap";
-import contImg from "../../../assets/contactImg.svg";
+import contImg from "../../../assets/contactImg.png";
 import btnImg from "../../../assets/contactBtn.svg";
 
 import "../../../style/componentStyle/home/contactStyle.css";
@@ -10,7 +10,10 @@ function Contact() {
   return (
     <Container>
       <Row className="row-contact">
-        <Col className="d-flex flex-column align-items-start justify-content-start contact-wrapper">
+        <Col
+          className="d-flex flex-column align-items-start justify-content-start contact-wrapper"
+          md={6}
+        >
           <h1 className="contact-heading">
             Create <span>Short Profile</span> Videos
           </h1>
@@ -24,8 +27,12 @@ function Contact() {
           </p>
           <img src={btnImg} alt="" className="contact-btn"></img>
         </Col>
-        <Col>
-          <LazyLoadImage src={contImg} alt="" className="contact-img" />
+        <Col md={6}>
+          <LazyLoadImage
+            src={contImg}
+            alt=""
+            className=" img-fluid contact-img"
+          />
         </Col>
       </Row>
     </Container>

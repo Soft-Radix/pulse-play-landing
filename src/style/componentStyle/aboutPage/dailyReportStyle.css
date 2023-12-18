@@ -19,11 +19,6 @@
 
 /* Styles for the overall report container */
 .report-container {
-  background: linear-gradient(
-    272deg,
-    rgba(253, 41, 123, 0.12) -5.84%,
-    rgba(255, 88, 100, 0.12) 98.18%
-  );
   padding: 3rem;
   margin-top: 6rem; /* Top margin for spacing */
   margin-bottom: 5rem; /* Bottom margin for spacing */
@@ -76,5 +71,10 @@
 @media (max-width: 768px) {
   .report-icon-container {
     gap: 92px 0; /* Adjusts the gap between report icons for smaller screens */
+  }
+}
+@media screen and (max-width: 1194px) and (min-width: 768px) {
+  .report-wrapper {
+    margin-top: 0px;
   }
 }
