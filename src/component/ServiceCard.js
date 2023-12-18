@@ -5,9 +5,10 @@ function ServiceCard(props) {
   const { title, imgSrc, description } = props;
   return (
     <Col
-      md={3}
+      lg={3}
       sm={6}
       xs={12}
+      xxl={4}
       className="pt-3 pb-3 service-container position-relative d-flex flex-column align-items-center justify-content-center"
     >
       <div className="detail-box"></div>
