@@ -125,7 +125,8 @@
 @media (max-width: 768px) {
   /* Adjust the position of the caption for smaller screens */
   .slider-caption {
-    position: static;
+    position: unset !important;
+    text-align: center !important;
   }
 
   /* Center-align the carousel items for smaller screens */
@@ -137,5 +138,13 @@
   /* Remove padding for success paragraph on smaller screens */
   .success-para {
     padding: 0;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .slider-caption {
+    position: static !important;
+  }
+  .success-para {
+    padding: 1rem 0;
   }
 }

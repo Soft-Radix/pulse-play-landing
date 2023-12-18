@@ -171,6 +171,7 @@
   object-fit: cover;
   display: flex;
   gap: 10px;
+  cursor: pointer;
 }
 
 /* Text Image Section */
@@ -181,11 +182,13 @@
 
 @media (max-width: 768px) {
   .nav-button {
-    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 16px;
   }
   .nav-items {
+    margin-top: 17px !important;
+    gap: 20px !important;
     align-items: flex-start;
-    gap: 0.5rem;
   }
   .btn-signUp {
     padding-left: 0;

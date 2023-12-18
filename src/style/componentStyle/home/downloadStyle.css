@@ -1,7 +1,7 @@
 .down-heading {
   color: var(--white, #fff);
   font-family: Poppins;
-  font-size: 44px;
+  font-size: 2.75rem;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
@@ -45,5 +45,11 @@
   .download-column {
     padding-top: 0 !important  ;
     padding-left: 1rem;
+  }
+  .down-heading {
+    font-size: 35px;
+  }
+  .down-para {
+    font-size: 12px;
   }
 }

@@ -8,7 +8,7 @@ function DailyReportCard(props) {
 
   return (
     // Column for the DailyReportCard
-    <Col className="check ">
+    <Col className="check " lg={true}>
       {/* Circular wrapper for the report icon */}
       <div className="report-wrapper">
         {/* Lazy-loaded image for the report icon */}
