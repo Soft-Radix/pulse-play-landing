@@ -1,7 +1,6 @@
 import React from "react";
 import { Row, Container, Col } from "react-bootstrap";
 import contImg from "../../../assets/contactImg.png";
-import btnImg from "../../../assets/contactBtn.svg";
 
 import "../../../style/componentStyle/home/contactStyle.css";
 import { LazyLoadImage } from "react-lazy-load-image-component";
@@ -25,7 +24,7 @@ function Contact() {
             sit amet consectetur. Elit egestas dui arcu nisi vel quam sit. Urna
             aliquet id convallis in semper{" "}
           </p>
-          <img src={btnImg} alt="" className="contact-btn"></img>
+          <button className="contact-btn">Contact Us</button>
         </Col>
         <Col md={6}>
           <LazyLoadImage
