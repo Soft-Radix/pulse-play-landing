@@ -105,7 +105,7 @@
     padding: 0 0.5rem !important;
   }
 }
-/* @media screen and (max-width: 768px) and (min-width: 320px) {
+@media screen and (max-width: 600px) and (min-width: 320px) {
   .card-text {
     width: 75%;
   }
@@ -113,5 +113,7 @@
     justify-content: end;
   }
   .imgSrc {
-    position: static !important;
-    /* left: 11px !important; */
+    /* position: static !important; */
+    left: 40px !important;
+  }
+}

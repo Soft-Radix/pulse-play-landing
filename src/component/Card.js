@@ -19,13 +19,13 @@ function Card(props) {
   return (
     <Col md={3} style={Position}>
       <div className="work-card" style={{ position: "relative" }}>
-        <img
-          src={imgSrc}
-          alt=""
-          style={{ position: "absolute", left }}
-          className="imgSrc"
-        ></img>
         <div className="card-text" style={Heart}>
+          <img
+            src={imgSrc}
+            alt=""
+            style={{ position: "absolute", left, zIndex: -1 }}
+            className="imgSrc newImgSrc"
+          ></img>
           <div className="text-wrapper">
             <img src={circle} alt="" className="Circle img-fluid"></img>
             <h2 className="text-sign">{title}</h2>
