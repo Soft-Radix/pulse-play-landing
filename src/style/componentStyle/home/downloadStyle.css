@@ -53,3 +53,12 @@
     font-size: 12px;
   }
 }
+@media (max-width: 376px) {
+  .row-download {
+    padding-top: 0 !important;
+  }
+  .download-column {
+    padding-top: 0 !important  ;
+    padding-left: 2rem;
+  }
+}

@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap"; // Importing Container, Row, and Col components from react-bootstrap
 import { LazyLoadImage } from "react-lazy-load-image-component"; // Importing LazyLoadImage component from react-lazy-load-image-component
-import mainImg from "../../../assets/about.svg"; // Importing the main image for the About page
+import mainImg from "../../../assets/aboutBg.png"; // Importing the main image for the About page
 import "../../../style/componentStyle/aboutPage/AboutPageStyle.css"; // Importing the CSS styles for the About page
 import circleImg from "../../../assets/circle.svg";
 import crossImg from "../../../assets/x.svg";
