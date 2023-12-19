@@ -9,10 +9,7 @@ function Contact() {
   return (
     <Container>
       <Row className="row-contact">
-        <Col
-          className="d-flex flex-column align-items-start justify-content-start contact-wrapper"
-          md={6}
-        >
+        <Col className="d-flex flex-column align-items-start justify-content-start contact-wrapper">
           <h1 className="contact-heading">
             Create <span>Short Profile</span> Videos
           </h1>
@@ -26,7 +23,7 @@ function Contact() {
           </p>
           <button className="contact-btn">Contact Us</button>
         </Col>
-        <Col md={6}>
+        <Col>
           <LazyLoadImage
             src={contImg}
             alt=""

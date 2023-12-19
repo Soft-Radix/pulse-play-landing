@@ -8,6 +8,9 @@
   font-weight: 700;
   line-height: normal;
 }
+.empower-container {
+  background-color: #ffe6ef;
+}
 
 .empower-heading span {
   background: var(
@@ -32,21 +35,19 @@
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
-  padding: 0.5rem 20rem; /* Padding adjusted, consider using responsive units */
+  padding: 0.5rem 13rem; /* Padding adjusted, consider using responsive units */
   line-height: 160%; /* 25.6px */
 }
 
 /* Description Container Styles */
 .description-container {
-  /* width: 100%; */
-  /* max-width: 594px; */
-  flex-shrink: 0;
-  background-color: var(--white);
-  border: 1px solid var(--pink);
   padding: 1rem;
+  width: 400px;
+  height: 116px;
+  flex-shrink: 0;
   border-radius: 10px;
-  margin-bottom: 27px;
-  box-sizing: border-box; /* Include padding and border in the total width/height */
+  border: 1px solid var(--gr, #fd297b);
+  background: #fff;
 }
 
 /* Description Heading Styles */
@@ -70,96 +71,56 @@
 }
 
 /* Progress Wrapper Styles */
-.progress-wrapper {
-  width: 100%;
-  padding: 4rem 2rem 0 2rem;
-}
 
-/* Vertical Progress Bar Styles */
-.progressbar.vertical {
-  counter-reset: step;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-/* Progress Bar List Item Styles */
-.progressbar li {
-  list-style: none;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  position: relative;
-  text-align: center;
-  cursor: pointer;
-}
-
-/* Numbered Circles Styles */
-.progressbar li:before {
-  content: counter(step, decimal-leading-zero);
-  counter-increment: step;
-  width: 56px;
-  height: 56px;
-  flex-shrink: 0;
-  line-height: 30px;
-  border: 3px solid #fff;
-  border-radius: 100%;
-  display: block;
-  text-align: center;
-  font-size: 18px;
-  background-color: #fd3575;
-  color: var(--white);
-  padding: 0.5rem;
-}
-
-/* Vertical Line Styles */
-.vertical-line {
-  border-left: 3px solid var(--pink);
-  height: 100px;
-  margin: 0 10px;
-}
-
-/* Connecting Lines Between Steps Styles */
-.progressbar li:after {
-  content: "";
-  position: absolute;
-  width: 1px;
-  height: 100%;
-  background-color: #ddd;
-  top: 50%;
-  left: 50px;
-  transform: translateX(-50%);
-  z-index: -1;
-}
-
-.progressbar li:first-child:after {
-  content: none;
-}
-
-/* Active Step Styles */
-.progressbar li.active {
-  color: var(--white);
-}
-
-.progressbar li.active:before {
-  border-color: var(--white);
-  padding: 0.5rem;
-}
-
-.progressbar li.active + li:after {
-  background-color: #fd3575;
-}
 .progress-container {
   display: flex;
   gap: 20px;
 }
 
 /* Custom Class for Flex Display */
-.custom {
+
+.step-container {
+  width: 100%;
+  display: flex;
+
+  /* background-color: aqua; */
+}
+.step-container .steps {
   display: flex;
   flex-direction: column;
+  width: 100%;
   align-items: center;
-  gap: 0px;
+  justify-content: space-between;
+  position: relative;
+  z-index: 1;
+  margin-top: 30px;
+  margin-bottom: 105px;
+}
+.steps .circles {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  width: 50px;
+  color: rgb(59, 122, 177);
+  font-size: 22px;
+  border-radius: 50%;
+  border: 4px solid rgb(156, 23, 23);
+  background: #fff;
+  margin-bottom: 20px;
+}
+.steps .progress-bar {
+  position: absolute;
+  width: 4px;
+  height: 90%;
+  background: #e0e0e0;
+  z-index: -1;
+}
+.progress-bar .indicator {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: blue;
 }
 
 /* Media Query for Smaller Screens */
