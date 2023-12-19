@@ -23,7 +23,7 @@ function Card(props) {
           src={imgSrc}
           alt=""
           style={{ position: "absolute", left }}
-          className="imgSrc img-fluid"
+          className="imgSrc"
         ></img>
         <div className="card-text" style={Heart}>
           <div className="text-wrapper">
