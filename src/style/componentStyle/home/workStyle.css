@@ -69,7 +69,7 @@
 
   justify-content: space-around;
 }
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .custom-card {
     flex-direction: column;
     align-items: center;

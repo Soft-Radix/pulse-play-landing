@@ -14,6 +14,7 @@ function Card(props) {
   };
   const Position = {
     position: "relative",
+    marginLeft: "auto",
   };
 
   return (

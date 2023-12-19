@@ -36,21 +36,18 @@ function Download() {
             <img src={dotImg} alt="" className="img-fluid"></img>
             <h4 className="dot-heading">Available On</h4>
           </div>
-          <Col className="download-Img">
-            <Col xs={6}>
-              <LazyLoadImage
-                src={appImg}
-                alt=""
-                className="img-fluid apple-img"
-              />
-            </Col>
-            <Col xs={6}>
-              <LazyLoadImage
-                src={googleImg}
-                alt=""
-                className="img-fluid google-img"
-              />
-            </Col>
+          <Col className="download-Img" xs={3}>
+            <LazyLoadImage
+              src={appImg}
+              alt=""
+              className="img-fluid apple-img"
+            />
+
+            <LazyLoadImage
+              src={googleImg}
+              alt=""
+              className="img-fluid google-img"
+            />
           </Col>
         </Col>
         <Col md={6}>
