@@ -32,7 +32,7 @@ function WorkSection() {
           </Col>
         </Row>
 
-        <Row className="custom-card mt-3 lg">
+        <Row className="custom-card mt-3">
           <Card
             imgSrc={img1}
             title={"Sign up now"}

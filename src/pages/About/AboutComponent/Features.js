@@ -1,7 +1,7 @@
 // Importing React and necessary components/libraries
 import React from "react";
 import { LazyLoadImage } from "react-lazy-load-image-component";
-import featuresImg from "../../../assets/featureImg.png";
+import featuresImg from "../../../assets/newfeatur.png";
 import redVector from "../../../assets/VectorRed.svg";
 import vectorImg from "../../../assets/Vector.svg";
 import "../../../style/componentStyle/aboutPage/FeaturesStyle.css";
