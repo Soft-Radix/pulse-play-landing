@@ -10,6 +10,9 @@
 .detail-row {
   padding-bottom: 3rem;
 }
+.detail-img {
+  padding: 1rem 3rem;
+}
 .form-input {
   color: var(--grey, #8b95a6);
   font-family: Poppins;
