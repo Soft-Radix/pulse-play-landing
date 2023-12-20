@@ -54,6 +54,28 @@ function Success() {
                 </p>
               </Carousel.Caption>
             </Carousel.Item>
+            <Carousel.Item className="slider-carosel">
+              {/* Lazy-loaded image for the Carousel item */}
+              <LazyLoadImage
+                className="img-fluid slider-img"
+                src={successImg}
+                alt="First slide"
+                effect="blur"
+              />
+              {/* Caption for the Carousel item */}
+              <Carousel.Caption className="slider-caption">
+                {/* Heading for the Carousel item */}
+                <h3 className="slider-heading">Alexandra</h3>
+                {/* Paragraph for the Carousel item */}
+                <p className="slider-para">
+                  Lorem ipsum dolor sit amet consectetur. Elit egestas dui arcu
+                  nisi vel quam sit. Urna aliquet id convallis in semper egestas
+                  leo. Amet ultrices ut hendrerit consequat est tincidunt
+                  pharetra egestas porttitor. Ut amet non nunc non vitae orci
+                  nunc.
+                </p>
+              </Carousel.Caption>
+            </Carousel.Item>
           </Carousel>
         </Col>
       </Row>

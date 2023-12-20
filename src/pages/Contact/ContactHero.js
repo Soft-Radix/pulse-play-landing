@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import contactbg from "../../assets/contactBg.svg";
+import contactbg from "../../assets/contactBG.png";
 import "../../style/componentStyle/contactPage/ContactHeroPageStyle.css";
 import starImg from "../../assets/Soft Star.svg";
 import pinkImg from "../../assets/circlePink.svg";
