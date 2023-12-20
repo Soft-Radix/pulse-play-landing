@@ -1,5 +1,5 @@
 import React from "react";
-import detailIMg from "../../assets/detailImg.svg";
+import detailIMg from "../../assets/detailForm.png";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import { Col, Container, Row } from "react-bootstrap";
 import ContactForm from "../../component/ContactForm";
@@ -24,7 +24,7 @@ function ContactDetails() {
         <Col style={{ padding: "3rem 1rem" }}>
           <h2 className="contactDetail-heading">Add Contact Details </h2>
 
-          <Col >
+          <Col>
             <ContactForm />
           </Col>
         </Col>
@@ -34,7 +34,7 @@ function ContactDetails() {
           md={12}
           xs={12}
           className="d-flex
-           gap-5"
+           gap-5 detail-col"
         >
           <div className="social-icon">
             <img src={twitterImg} alt=""></img>

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import "../style/HeaderStyle.css";
 import logoImg from "../assets/logo.png";
 import logoName from "../assets/logoName.png";
@@ -10,10 +10,29 @@ import { Link } from "react-router-dom";
 
 function Header(props) {
   const { newClass } = props;
+  const [toggle, setToggle] = useState(false);
+
+  // useEffect(() => {
+  //   const handleResize = () => {
+  //     if (window) {
+  //       if (window.innerWidth >= 991) {
+  //         setToggle(false);
+  //       } else {
+  //         setToggle(true);
+  //       }
+  //     }
+  //   };
+  //   window.addEventListener("resize", handleResize);
+  //   return () => {
+  //     window.removeEventListener("resize", handleResize);
+  //   };
+  // }, []);
 
   return (
     <Navbar
-      className={`${newClass ? "custom-header d-flex" : "main-header d-flex"}`}
+      className={`${
+        newClass && !toggle ? "custom-header d-flex" : "main-header d-flex"
+      }`}
       expand="lg"
     >
       <Container className="nav-container">
@@ -27,6 +46,9 @@ function Header(props) {
         <Navbar.Toggle
           aria-controls="basic-navbar-nav"
           className="custom-toggle"
+          onClick={() => {
+            setToggle(!toggle);
+          }}
         />
 
         {/* Navigation Items */}

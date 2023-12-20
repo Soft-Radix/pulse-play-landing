@@ -11,7 +11,7 @@ function Empower() {
       <Container className="pt-3">
         {/* First Row */}
         <Row className="pt-3 ">
-          <Col>
+          <Col className="pt-4">
             <h2 className="empower-heading">
               We <span>Empower</span>
             </h2>
@@ -22,7 +22,7 @@ function Empower() {
           </Col>
         </Row>
 
-        <Row>
+        <Row className="step-row">
           <Col className="d-flex">
             <div class="step-container">
               <div className="steps">
@@ -65,7 +65,7 @@ function Empower() {
           </Col>
 
           {/* Right Column */}
-          <Col>
+          <Col className="empowerImg-container">
             <LazyLoadImage
               src={empowerImg}
               effect="blur "

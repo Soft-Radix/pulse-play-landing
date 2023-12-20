@@ -70,12 +70,20 @@
   margin-bottom: 8%;
   padding: 8rem 18rem 4rem 18rem !important;
 }
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) and (min-width: 320px) {
   .contactPage-text {
     padding: 0 !important;
     margin-top: 2rem !important;
   }
-  .custom-header {
+  /* .custom-header {
     background-color: black;
+  } */
+}
+@media screen and (max-width: 1000px) and (min-width: 767px) {
+  /* .custom-header {
+    background-color: black;
+  } */
+  .nav-items {
+    align-items: flex-start;
   }
 }
