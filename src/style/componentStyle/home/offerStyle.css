@@ -54,4 +54,15 @@
   .offer-wrapper {
     padding: 2rem 0.2rem;
   }
+  .offer-text {
+    padding: 0 1rem !important;
+  }
+}
+@media screen and (max-width: 1024px) and (min-width: 768px) {
+  .offer-wrapper {
+    flex-direction: column;
+  }
+  .offer-text {
+    width: 100% !important;
+  }
 }

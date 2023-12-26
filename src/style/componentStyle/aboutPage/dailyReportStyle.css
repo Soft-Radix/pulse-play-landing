@@ -71,6 +71,7 @@
 @media (max-width: 768px) {
   .report-icon-container {
     gap: 92px 0; /* Adjusts the gap between report icons for smaller screens */
+    justify-content: center;
   }
 }
 @media screen and (max-width: 1194px) and (min-width: 768px) {

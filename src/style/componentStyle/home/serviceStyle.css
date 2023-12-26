@@ -84,6 +84,9 @@
   .service-row {
     padding: 0 0.5rem;
   }
+  .service-para {
+    text-align: left;
+  }
 }
 @media screen and (max-width: 1024px) and (min-width: 768px) {
   .service-row {

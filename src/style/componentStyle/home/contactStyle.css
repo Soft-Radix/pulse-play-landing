@@ -62,4 +62,7 @@
   .row-contact {
     flex-direction: column;
   }
+  .contact-wrapper {
+    padding: 1rem 1rem !important;
+  }
 }

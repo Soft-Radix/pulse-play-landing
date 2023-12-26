@@ -96,8 +96,11 @@
   .detail-row {
     flex-direction: column;
     justify-content: center;
+    padding-bottom: 0.5rem;
   }
-
+  .detail-col {
+    gap: 1rem;
+  }
   .social-icon {
     text-align: center;
   }
